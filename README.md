@@ -66,7 +66,7 @@ All figures below are measured outputs of the pipeline.
 | Self-certification completeness | 92.6% of target accounts (2,751 of 2,970) |
 | Staging step | 450 of 450 planted format variants standardised to the correct value |
 | Workbook check in Excel | 19,738 formulas, 0 in error; 78 of 78 key cells match the database |
-| Tests | 32 pytest tests pass |
+| Tests | 33 pytest tests pass |
 
 ### How well the checks work
 

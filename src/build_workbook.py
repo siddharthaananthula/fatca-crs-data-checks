@@ -23,6 +23,8 @@ from openpyxl.formatting.rule import CellIsRule, FormulaRule
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
+from openpyxl.worksheet.page import PageMargins
+from openpyxl.worksheet.properties import PageSetupProperties
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 from reference import REPORTING_DATE
@@ -63,6 +65,24 @@ def header(ws, row, values, col=1):
         c = ws.cell(row=row, column=col + i, value=v)
         c.fill, c.font, c.border = HEAD_FILL, HEAD_FONT, BOX
         c.alignment = Alignment(wrap_text=True, vertical="center")
+
+
+PRINT_SHEETS = ["Summary", "Exception register", "Lookup", "Rule x country", "Check scores"]
+
+
+def print_setup(ws, repeat_header: bool = False) -> None:
+    """Landscape A4, one page wide (any height), footer with sheet and page."""
+    ws.page_setup.orientation = "landscape"
+    ws.page_setup.paperSize = ws.PAPERSIZE_A4
+    ws.page_setup.fitToWidth = 1
+    ws.page_setup.fitToHeight = 0
+    ws.sheet_properties.pageSetUpPr = PageSetupProperties(fitToPage=True)
+    ws.page_margins = PageMargins(left=0.5, right=0.5, top=0.6, bottom=0.7,
+                                  header=0.3, footer=0.3)
+    ws.oddFooter.left.text = "&A"
+    ws.oddFooter.right.text = "Page &P of &N"
+    if repeat_header:
+        ws.print_title_rows = "1:1"
 
 
 def title(ws, text, sub=None):
@@ -358,7 +378,11 @@ def sheet_summary(wb, con, n_acc, n_cust, n_sc, n_reg, expected):
 
     ws.conditional_formatting.add(f"G5:G{tot + 1}", CellIsRule(operator="equal", formula=['"OK"'], fill=GREEN))
     ws.conditional_formatting.add(f"G5:G{tot + 1}", CellIsRule(operator="equal", formula=['"BREAK"'], fill=RED))
-    widths(ws, [34, 36, 16, 16, 16, 14, 10])
+    # Column B holds the full rule names; the subtitle wraps across A:G.
+    widths(ws, [34, 62, 16, 16, 16, 14, 10])
+    ws.merge_cells("A2:G2")
+    ws["A2"].alignment = Alignment(wrap_text=True, vertical="top")
+    ws.row_dimensions[2].height = 30
 
 
 # --------------------------------------------------------------------- lookup
@@ -548,6 +572,8 @@ def build() -> None:
     sheet_scores(wb, con)
     sheet_mapping(wb)
     sheet_lists(wb)
+    for name in PRINT_SHEETS:
+        print_setup(wb[name], repeat_header=(name == "Exception register"))
     con.close()
     wb.calculation.fullCalcOnLoad = True
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -54,3 +54,21 @@ def test_pivot_and_mapping(wb):
     assert "COUNTIFS(" in " ".join(formulas(wb["Rule x country"]))
     assert wb["Mapping"]["A4"].value == "Target field"
     assert wb["Mapping"].max_row > 30
+
+
+def test_print_layout_for_client_sheets(wb):
+    for name in ["Summary", "Exception register", "Lookup", "Rule x country", "Check scores"]:
+        ws = wb[name]
+        assert ws.page_setup.orientation == "landscape", name
+        assert ws.sheet_properties.pageSetUpPr.fitToPage, name
+        assert ws.page_setup.fitToWidth == 1 and ws.page_setup.fitToHeight == 0, name
+        assert "&A" in ws.oddFooter.left.text and "&P" in ws.oddFooter.right.text, name
+    assert wb["Exception register"].print_title_rows == "$1:$1"
+    summary = wb["Summary"]
+    assert "A2:G2" in {str(r) for r in summary.merged_cells.ranges}
+    assert summary["A2"].alignment.wrap_text
+    longest = max(len(summary.cell(row=r, column=2).value or "")
+                  for r in range(1, summary.max_row + 1)
+                  if isinstance(summary.cell(row=r, column=2).value, str)
+                  and not str(summary.cell(row=r, column=2).value).startswith("="))
+    assert summary.column_dimensions["B"].width >= longest
