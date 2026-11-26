@@ -1,0 +1,823 @@
+issue_id,issue_type,sub_type,expected_rule,source_system,record_key,related_key,field,injected_value,clean_value,description
+I0001,duplicate_customer,exact,R01,customer_master,C000506,C001464,customer_id,C000506,,Duplicate of C001464: same name and date of birth
+I0002,duplicate_customer,exact,R01,customer_master,C000404,C000272,customer_id,C000404,,Duplicate of C000272: same name and date of birth
+I0003,duplicate_customer,exact,R01,customer_master,C001236,C001048,customer_id,C001236,,Duplicate of C001048: same name and date of birth
+I0004,duplicate_customer,exact,R01,customer_master,C000892,C000977,customer_id,C000892,,Duplicate of C000977: same name and date of birth
+I0005,duplicate_customer,exact,R01,customer_master,C001781,C001705,customer_id,C001781,,Duplicate of C001705: same name and date of birth
+I0006,duplicate_customer,exact,R01,customer_master,C001042,C000691,customer_id,C001042,,Duplicate of C000691: same name and date of birth
+I0007,duplicate_customer,exact,R01,customer_master,C001426,C001305,customer_id,C001426,,Duplicate of C001305: same name and date of birth
+I0008,duplicate_customer,exact,R01,customer_master,C001973,C000725,customer_id,C001973,,Duplicate of C000725: same name and date of birth
+I0009,duplicate_customer,exact,R01,customer_master,C000614,C000620,customer_id,C000614,,Duplicate of C000620: same name and date of birth
+I0010,duplicate_customer,exact,R01,customer_master,C001576,C000956,customer_id,C001576,,Duplicate of C000956: same name and date of birth
+I0011,duplicate_customer,name_typo,R01,customer_master,C001349,C000296,customer_id,C001349,,Duplicate of C000296: name spelt 'Christopher Williasm'
+I0012,duplicate_customer,name_typo,R01,customer_master,C000415,C001408,customer_id,C000415,,Duplicate of C001408: name spelt 'Jamie Thompon'
+I0013,duplicate_customer,name_typo,R01,customer_master,C001246,C000127,customer_id,C001246,,Duplicate of C000127: name spelt 'Ronald Powelll'
+I0014,duplicate_customer,name_typo,R01,customer_master,C001298,C000370,customer_id,C001298,,Duplicate of C000370: name spelt 'Beth Barkeer'
+I0015,duplicate_customer,name_typo,R01,customer_master,C000678,C000707,customer_id,C000678,,Duplicate of C000707: name spelt 'Alicia Preeston'
+I0016,duplicate_customer,name_typo,R01,customer_master,C000119,C000189,customer_id,C000119,,Duplicate of C000189: name spelt 'Rachel Raahman'
+I0017,duplicate_customer,name_typo,R01,customer_master,C000946,C000961,customer_id,C000946,,Duplicate of C000961: name spelt 'Rachel Norrris'
+I0018,duplicate_customer,name_typo,R01,customer_master,C000710,C001374,customer_id,C000710,,Duplicate of C001374: name spelt 'Megan Sctt'
+I0019,duplicate_customer,name_typo,R01,customer_master,C000410,C001297,customer_id,C000410,,Duplicate of C001297: name spelt 'Nancy Biishop'
+I0020,duplicate_customer,name_typo,R01,customer_master,C000054,C001775,customer_id,C000054,,Duplicate of C001775: name spelt 'André Delahye'
+I0021,duplicate_customer,name_format,R01,customer_master,C001744,C001457,customer_id,C001744,,Duplicate of C001457: name written 'William  Flores'
+I0022,duplicate_customer,name_format,R01,customer_master,C000414,C001184,customer_id,C000414,,Duplicate of C001184: name written 'Scott  Roberts'
+I0023,duplicate_customer,name_format,R01,customer_master,C001366,C000179,customer_id,C001366,,Duplicate of C000179: name written 'KEVIN ODONNELL'
+I0024,duplicate_customer,name_format,R01,customer_master,C000487,C000513,customer_id,C000487,,Duplicate of C000513: name written 'Thomas  Espinoza'
+I0025,duplicate_customer,name_format,R01,customer_master,C000716,C000315,customer_id,C000716,,Duplicate of C000315: name written 'ANTHONY HART'
+I0026,duplicate_customer,name_format,R01,customer_master,C000724,C001616,customer_id,C000724,,Duplicate of C001616: name written 'VICTORIA LYNCH'
+I0027,duplicate_customer,name_format,R01,customer_master,C000122,C001842,customer_id,C000122,,Duplicate of C001842: name written 'LOUIS MARTIN'
+I0028,duplicate_customer,name_format,R01,customer_master,C001848,C000523,customer_id,C001848,,Duplicate of C000523: name written 'Julie  Carroll'
+I0029,duplicate_customer,name_format,R01,customer_master,C000313,C001962,customer_id,C000313,,Duplicate of C001962: name written 'David  Pai'
+I0030,duplicate_customer,name_format,R01,customer_master,C001539,C001317,customer_id,C001539,,Duplicate of C001317: name written 'SABINE ROYER'
+I0031,duplicate_customer,dob_format,R01,customer_master,C000142,C000495,customer_id,C000142,,Duplicate of C000495: date of birth written 29/08/1984
+I0032,format_fixable,date_dmy,STAGING_FIX,customer_master,C000142,,date_of_birth,29/08/1984,1984-08-29,Date of birth in dd/mm/yyyy
+I0033,duplicate_customer,dob_format,R01,customer_master,C000618,C000492,customer_id,C000618,,Duplicate of C000492: date of birth written 01/01/1999
+I0034,format_fixable,date_dmy,STAGING_FIX,customer_master,C000618,,date_of_birth,01/01/1999,1999-01-01,Date of birth in dd/mm/yyyy
+I0035,duplicate_customer,dob_format,R01,customer_master,C000100,C001791,customer_id,C000100,,Duplicate of C001791: date of birth written 20/07/1978
+I0036,format_fixable,date_dmy,STAGING_FIX,customer_master,C000100,,date_of_birth,20/07/1978,1978-07-20,Date of birth in dd/mm/yyyy
+I0037,duplicate_customer,dob_format,R01,customer_master,C000769,C000656,customer_id,C000769,,Duplicate of C000656: date of birth written 14/08/1960
+I0038,format_fixable,date_dmy,STAGING_FIX,customer_master,C000769,,date_of_birth,14/08/1960,1960-08-14,Date of birth in dd/mm/yyyy
+I0039,duplicate_customer,dob_format,R01,customer_master,C001740,C001456,customer_id,C001740,,Duplicate of C001456: date of birth written 18/05/1963
+I0040,format_fixable,date_dmy,STAGING_FIX,customer_master,C001740,,date_of_birth,18/05/1963,1963-05-18,Date of birth in dd/mm/yyyy
+I0041,duplicate_customer,dob_format,R01,customer_master,C000819,C000856,customer_id,C000819,,Duplicate of C000856: date of birth written 25/04/2003
+I0042,format_fixable,date_dmy,STAGING_FIX,customer_master,C000819,,date_of_birth,25/04/2003,2003-04-25,Date of birth in dd/mm/yyyy
+I0043,duplicate_customer,dob_format,R01,customer_master,C001710,C000111,customer_id,C001710,,Duplicate of C000111: date of birth written 30/08/1959
+I0044,format_fixable,date_dmy,STAGING_FIX,customer_master,C001710,,date_of_birth,30/08/1959,1959-08-30,Date of birth in dd/mm/yyyy
+I0045,duplicate_customer,dob_format,R01,customer_master,C001911,C000059,customer_id,C001911,,Duplicate of C000059: date of birth written 03/05/2005
+I0046,format_fixable,date_dmy,STAGING_FIX,customer_master,C001911,,date_of_birth,03/05/2005,2005-05-03,Date of birth in dd/mm/yyyy
+I0047,duplicate_customer,dob_format,R01,customer_master,C000933,C001494,customer_id,C000933,,Duplicate of C001494: date of birth written 11/12/1971
+I0048,format_fixable,date_dmy,STAGING_FIX,customer_master,C000933,,date_of_birth,11/12/1971,1971-12-11,Date of birth in dd/mm/yyyy
+I0049,duplicate_customer,dob_format,R01,customer_master,C000752,C001065,customer_id,C000752,,Duplicate of C001065: date of birth written 05/04/1951
+I0050,format_fixable,date_dmy,STAGING_FIX,customer_master,C000752,,date_of_birth,05/04/1951,1951-04-05,Date of birth in dd/mm/yyyy
+I0051,orphan_account,,R06,accounts,A0000093,C002467,customer_id,C002467,,"Account points to C002467, which is not in the customer master"
+I0052,orphan_account,,R06,accounts,A0000264,C002084,customer_id,C002084,,"Account points to C002084, which is not in the customer master"
+I0053,orphan_account,,R06,accounts,A0000767,C002954,customer_id,C002954,,"Account points to C002954, which is not in the customer master"
+I0054,orphan_account,,R06,accounts,A0000932,C002562,customer_id,C002562,,"Account points to C002562, which is not in the customer master"
+I0055,orphan_account,,R06,accounts,A0001013,C002927,customer_id,C002927,,"Account points to C002927, which is not in the customer master"
+I0056,orphan_account,,R06,accounts,A0001169,C002080,customer_id,C002080,,"Account points to C002080, which is not in the customer master"
+I0057,orphan_account,,R06,accounts,A0001180,C002057,customer_id,C002057,,"Account points to C002057, which is not in the customer master"
+I0058,orphan_account,,R06,accounts,A0001240,C002511,customer_id,C002511,,"Account points to C002511, which is not in the customer master"
+I0059,orphan_account,,R06,accounts,A0001254,C002709,customer_id,C002709,,"Account points to C002709, which is not in the customer master"
+I0060,orphan_account,,R06,accounts,A0001259,C002763,customer_id,C002763,,"Account points to C002763, which is not in the customer master"
+I0061,orphan_account,,R06,accounts,A0001324,C002402,customer_id,C002402,,"Account points to C002402, which is not in the customer master"
+I0062,orphan_account,,R06,accounts,A0001354,C002850,customer_id,C002850,,"Account points to C002850, which is not in the customer master"
+I0063,orphan_account,,R06,accounts,A0001454,C002088,customer_id,C002088,,"Account points to C002088, which is not in the customer master"
+I0064,orphan_account,,R06,accounts,A0001457,C002730,customer_id,C002730,,"Account points to C002730, which is not in the customer master"
+I0065,orphan_account,,R06,accounts,A0001644,C002207,customer_id,C002207,,"Account points to C002207, which is not in the customer master"
+I0066,orphan_account,,R06,accounts,A0001661,C002958,customer_id,C002958,,"Account points to C002958, which is not in the customer master"
+I0067,orphan_account,,R06,accounts,A0001750,C002546,customer_id,C002546,,"Account points to C002546, which is not in the customer master"
+I0068,orphan_account,,R06,accounts,A0001789,C002125,customer_id,C002125,,"Account points to C002125, which is not in the customer master"
+I0069,orphan_account,,R06,accounts,A0001834,C002904,customer_id,C002904,,"Account points to C002904, which is not in the customer master"
+I0070,orphan_account,,R06,accounts,A0001971,C002457,customer_id,C002457,,"Account points to C002457, which is not in the customer master"
+I0071,orphan_account,,R06,accounts,A0002147,C002428,customer_id,C002428,,"Account points to C002428, which is not in the customer master"
+I0072,orphan_account,,R06,accounts,A0002294,C002746,customer_id,C002746,,"Account points to C002746, which is not in the customer master"
+I0073,orphan_account,,R06,accounts,A0002459,C002553,customer_id,C002553,,"Account points to C002553, which is not in the customer master"
+I0074,orphan_account,,R06,accounts,A0002472,C002412,customer_id,C002412,,"Account points to C002412, which is not in the customer master"
+I0075,orphan_account,,R06,accounts,A0002585,C002488,customer_id,C002488,,"Account points to C002488, which is not in the customer master"
+I0076,orphan_account,,R06,accounts,A0002770,C002946,customer_id,C002946,,"Account points to C002946, which is not in the customer master"
+I0077,orphan_account,,R06,accounts,A0002783,C002475,customer_id,C002475,,"Account points to C002475, which is not in the customer master"
+I0078,orphan_account,,R06,accounts,A0002853,C002145,customer_id,C002145,,"Account points to C002145, which is not in the customer master"
+I0079,orphan_account,,R06,accounts,A0002886,C002518,customer_id,C002518,,"Account points to C002518, which is not in the customer master"
+I0080,orphan_account,,R06,accounts,A0002942,C002842,customer_id,C002842,,"Account points to C002842, which is not in the customer master"
+I0081,customer_no_account,,R07,customer_master,C000017,,customer_id,C000017,,Customer has no accounts
+I0082,customer_no_account,,R07,customer_master,C000021,,customer_id,C000021,,Customer has no accounts
+I0083,customer_no_account,,R07,customer_master,C000095,,customer_id,C000095,,Customer has no accounts
+I0084,customer_no_account,,R07,customer_master,C000139,,customer_id,C000139,,Customer has no accounts
+I0085,customer_no_account,,R07,customer_master,C000151,,customer_id,C000151,,Customer has no accounts
+I0086,customer_no_account,,R07,customer_master,C000182,,customer_id,C000182,,Customer has no accounts
+I0087,customer_no_account,,R07,customer_master,C000246,,customer_id,C000246,,Customer has no accounts
+I0088,customer_no_account,,R07,customer_master,C000259,,customer_id,C000259,,Customer has no accounts
+I0089,customer_no_account,,R07,customer_master,C000279,,customer_id,C000279,,Customer has no accounts
+I0090,customer_no_account,,R07,customer_master,C000295,,customer_id,C000295,,Customer has no accounts
+I0091,customer_no_account,,R07,customer_master,C000389,,customer_id,C000389,,Customer has no accounts
+I0092,customer_no_account,,R07,customer_master,C000502,,customer_id,C000502,,Customer has no accounts
+I0093,customer_no_account,,R07,customer_master,C000517,,customer_id,C000517,,Customer has no accounts
+I0094,customer_no_account,,R07,customer_master,C000705,,customer_id,C000705,,Customer has no accounts
+I0095,customer_no_account,,R07,customer_master,C000738,,customer_id,C000738,,Customer has no accounts
+I0096,customer_no_account,,R07,customer_master,C000746,,customer_id,C000746,,Customer has no accounts
+I0097,customer_no_account,,R07,customer_master,C000780,,customer_id,C000780,,Customer has no accounts
+I0098,customer_no_account,,R07,customer_master,C000966,,customer_id,C000966,,Customer has no accounts
+I0099,customer_no_account,,R07,customer_master,C001030,,customer_id,C001030,,Customer has no accounts
+I0100,customer_no_account,,R07,customer_master,C001133,,customer_id,C001133,,Customer has no accounts
+I0101,customer_no_account,,R07,customer_master,C001174,,customer_id,C001174,,Customer has no accounts
+I0102,customer_no_account,,R07,customer_master,C001229,,customer_id,C001229,,Customer has no accounts
+I0103,customer_no_account,,R07,customer_master,C001268,,customer_id,C001268,,Customer has no accounts
+I0104,customer_no_account,,R07,customer_master,C001273,,customer_id,C001273,,Customer has no accounts
+I0105,customer_no_account,,R07,customer_master,C001280,,customer_id,C001280,,Customer has no accounts
+I0106,customer_no_account,,R07,customer_master,C001377,,customer_id,C001377,,Customer has no accounts
+I0107,customer_no_account,,R07,customer_master,C001459,,customer_id,C001459,,Customer has no accounts
+I0108,customer_no_account,,R07,customer_master,C001491,,customer_id,C001491,,Customer has no accounts
+I0109,customer_no_account,,R07,customer_master,C001566,,customer_id,C001566,,Customer has no accounts
+I0110,customer_no_account,,R07,customer_master,C001587,,customer_id,C001587,,Customer has no accounts
+I0111,customer_no_account,,R07,customer_master,C001592,,customer_id,C001592,,Customer has no accounts
+I0112,customer_no_account,,R07,customer_master,C001674,,customer_id,C001674,,Customer has no accounts
+I0113,customer_no_account,,R07,customer_master,C001696,,customer_id,C001696,,Customer has no accounts
+I0114,customer_no_account,,R07,customer_master,C001752,,customer_id,C001752,,Customer has no accounts
+I0115,customer_no_account,,R07,customer_master,C001777,,customer_id,C001777,,Customer has no accounts
+I0116,customer_no_account,,R07,customer_master,C001815,,customer_id,C001815,,Customer has no accounts
+I0117,customer_no_account,,R07,customer_master,C001839,,customer_id,C001839,,Customer has no accounts
+I0118,customer_no_account,,R07,customer_master,C001877,,customer_id,C001877,,Customer has no accounts
+I0119,customer_no_account,,R07,customer_master,C001913,,customer_id,C001913,,Customer has no accounts
+I0120,customer_no_account,,R07,customer_master,C001943,,customer_id,C001943,,Customer has no accounts
+I0121,missing_tin,blank,R02,self_certification,C000037,,tin_1,,,No usable TIN for declared residency AU
+I0122,missing_tin,blank,R02,self_certification,C001385,,tin_1,,,No usable TIN for declared residency AU
+I0123,missing_tin,blank,R02,self_certification,C001345,,tin_1,,,No usable TIN for declared residency DE
+I0124,missing_tin,blank,R02,self_certification,C000768,,tin_1,,,No usable TIN for declared residency AU
+I0125,missing_tin,blank,R02,self_certification,C001929,,tin_1,,,No usable TIN for declared residency DE
+I0126,missing_tin,blank,R02,self_certification,C000329,,tin_1,,,No usable TIN for declared residency AU
+I0127,missing_tin,blank,R02,self_certification,C000704,,tin_1,,,No usable TIN for declared residency US
+I0128,missing_tin,blank,R02,self_certification,C001380,,tin_1,,,No usable TIN for declared residency DE
+I0129,missing_tin,blank,R02,self_certification,C001423,,tin_1,,,No usable TIN for declared residency AU
+I0130,missing_tin,blank,R02,self_certification,C001540,,tin_1,,,No usable TIN for declared residency NZ
+I0131,missing_tin,blank,R02,self_certification,C000435,,tin_1,,,No usable TIN for declared residency AU
+I0132,missing_tin,blank,R02,self_certification,C000371,,tin_1,,,No usable TIN for declared residency AU
+I0133,missing_tin,blank,R02,self_certification,C001331,,tin_1,,,No usable TIN for declared residency IN
+I0134,missing_tin,blank,R02,self_certification,C001801,,tin_1,,,No usable TIN for declared residency AU
+I0135,missing_tin,blank,R02,self_certification,C001078,,tin_1,,,No usable TIN for declared residency GB
+I0136,missing_tin,whitespace,R02,self_certification,C000777,,tin_1,   ,,No usable TIN for declared residency AU
+I0137,missing_tin,whitespace,R02,self_certification,C000297,,tin_1,   ,,No usable TIN for declared residency AU
+I0138,missing_tin,whitespace,R02,self_certification,C001144,,tin_1,   ,,No usable TIN for declared residency AU
+I0139,missing_tin,whitespace,R02,self_certification,C000547,,tin_1,   ,,No usable TIN for declared residency AU
+I0140,missing_tin,whitespace,R02,self_certification,C000514,,tin_1,   ,,No usable TIN for declared residency AU
+I0141,missing_tin,placeholder,R02,self_certification,C001274,,tin_1,N/A,,No usable TIN for declared residency AU
+I0142,missing_tin,placeholder,R02,self_certification,C001320,,tin_1,N/A,,No usable TIN for declared residency AU
+I0143,missing_tin,placeholder,R02,self_certification,C001111,,tin_1,UNKNOWN,,No usable TIN for declared residency AU
+I0144,missing_tin,placeholder,R02,self_certification,C000800,,tin_1,N/A,,No usable TIN for declared residency AU
+I0145,missing_tin,placeholder,R02,self_certification,C001281,,tin_1,UNKNOWN,,No usable TIN for declared residency AU
+I0146,missing_tin,placeholder,R02,self_certification,C000344,,tin_1,-,,No usable TIN for declared residency AU
+I0147,missing_tin,placeholder,R02,self_certification,C001302,,tin_1,N/A,,No usable TIN for declared residency AU
+I0148,missing_tin,placeholder,R02,self_certification,C000048,,tin_1,-,,No usable TIN for declared residency AU
+I0149,missing_tin,placeholder,R02,self_certification,C000732,,tin_1,NONE,,No usable TIN for declared residency GB
+I0150,missing_tin,placeholder,R02,self_certification,C001584,,tin_1,-,,No usable TIN for declared residency IE
+I0151,missing_tin,placeholder,R02,self_certification,C000916,,tin_1,NONE,,No usable TIN for declared residency NZ
+I0152,missing_tin,placeholder,R02,self_certification,C000927,,tin_1,NONE,,No usable TIN for declared residency AU
+I0153,missing_tin,placeholder,R02,self_certification,C001754,,tin_1,-,,No usable TIN for declared residency AU
+I0154,missing_tin,placeholder,R02,self_certification,C000428,,tin_1,NONE,,No usable TIN for declared residency NZ
+I0155,missing_tin,placeholder,R02,self_certification,C001473,,tin_1,-,,No usable TIN for declared residency GB
+I0156,missing_tin,placeholder,R02,self_certification,C001957,,tin_1,-,,No usable TIN for declared residency AU
+I0157,missing_tin,placeholder,R02,self_certification,C000169,,tin_1,-,,No usable TIN for declared residency AU
+I0158,missing_tin,placeholder,R02,self_certification,C001445,,tin_1,NONE,,No usable TIN for declared residency AU
+I0159,missing_tin,placeholder,R02,self_certification,C000160,,tin_1,NONE,,No usable TIN for declared residency AU
+I0160,missing_tin,placeholder,R02,self_certification,C001806,,tin_1,N/A,,No usable TIN for declared residency US
+I0161,malformed_tin,wrong_length,R03,self_certification,C000876,,tin_1,AU-FAKE-29004585,,TIN does not fit the fake AU format
+I0162,malformed_tin,letter_in_digits,R03,self_certification,C001627,,tin_1,AU-FAKE-O28514808,,TIN does not fit the fake AU format
+I0163,malformed_tin,wrong_country_prefix,R03,self_certification,C000206,,tin_1,NZ-FAKE-651074098,,TIN does not fit the fake US format
+I0164,malformed_tin,missing_prefix,R03,self_certification,C001709,,tin_1,474917091,,TIN does not fit the fake AU format
+I0165,malformed_tin,repeated_digit,R03,self_certification,C000430,,tin_1,AU-FAKE-777777777,,TIN does not fit the fake AU format
+I0166,malformed_tin,wrong_length,R03,self_certification,C000669,,tin_1,AU-FAKE-4605706571,,TIN does not fit the fake AU format
+I0167,malformed_tin,letter_in_digits,R03,self_certification,C001000,,tin_1,AU-FAKE-61O916914,,TIN does not fit the fake AU format
+I0168,malformed_tin,wrong_country_prefix,R03,self_certification,C000634,,tin_1,GB-FAKE-759384266,,TIN does not fit the fake AU format
+I0169,malformed_tin,missing_prefix,R03,self_certification,C001069,,tin_1,456537750,,TIN does not fit the fake AU format
+I0170,malformed_tin,repeated_digit,R03,self_certification,C000463,,tin_1,IE-FAKE-55555555,,TIN does not fit the fake IE format
+I0171,malformed_tin,wrong_length,R03,self_certification,C000934,,tin_1,AU-FAKE-8241736655,,TIN does not fit the fake AU format
+I0172,malformed_tin,letter_in_digits,R03,self_certification,C000999,,tin_1,NZ-FAKE-93489I06,,TIN does not fit the fake NZ format
+I0173,malformed_tin,wrong_country_prefix,R03,self_certification,C001295,,tin_1,IN-FAKE-814797577,,TIN does not fit the fake AU format
+I0174,malformed_tin,missing_prefix,R03,self_certification,C000967,,tin_1,622407155,,TIN does not fit the fake AU format
+I0175,malformed_tin,repeated_digit,R03,self_certification,C000311,,tin_1,AU-FAKE-222222222,,TIN does not fit the fake AU format
+I0176,malformed_tin,wrong_length,R03,self_certification,C000877,,tin_1,AU-FAKE-3647334154,,TIN does not fit the fake AU format
+I0177,malformed_tin,letter_in_digits,R03,self_certification,C000629,,tin_1,AU-FAKE-92168I286,,TIN does not fit the fake AU format
+I0178,malformed_tin,wrong_country_prefix,R03,self_certification,C001963,,tin_1,US-FAKE-49728549,,TIN does not fit the fake NZ format
+I0179,malformed_tin,missing_prefix,R03,self_certification,C001983,,tin_1,6680631830457,,TIN does not fit the fake FR format
+I0180,malformed_tin,repeated_digit,R03,self_certification,C000917,,tin_1,AU-FAKE-888888888,,TIN does not fit the fake AU format
+I0181,malformed_tin,wrong_length,R03,self_certification,C001014,,tin_1,AU-FAKE-71117274,,TIN does not fit the fake AU format
+I0182,malformed_tin,letter_in_digits,R03,self_certification,C000079,,tin_1,AU-FAKE-18540S902,,TIN does not fit the fake AU format
+I0183,malformed_tin,wrong_country_prefix,R03,self_certification,C000945,,tin_1,DE-FAKE-713204773,,TIN does not fit the fake AU format
+I0184,malformed_tin,missing_prefix,R03,self_certification,C001276,,tin_1,611008650,,TIN does not fit the fake AU format
+I0185,malformed_tin,repeated_digit,R03,self_certification,C000043,,tin_1,AU-FAKE-555555555,,TIN does not fit the fake AU format
+I0186,malformed_tin,wrong_length,R03,self_certification,C000107,,tin_1,AU-FAKE-61741339,,TIN does not fit the fake AU format
+I0187,malformed_tin,letter_in_digits,R03,self_certification,C001173,,tin_1,AU-FAKE-S79247732,,TIN does not fit the fake AU format
+I0188,malformed_tin,wrong_country_prefix,R03,self_certification,C000563,,tin_1,IN-FAKE-913479011,,TIN does not fit the fake AU format
+I0189,malformed_tin,missing_prefix,R03,self_certification,C001702,,tin_1,903200722,,TIN does not fit the fake AU format
+I0190,malformed_tin,repeated_digit,R03,self_certification,C000040,,tin_1,AU-FAKE-777777777,,TIN does not fit the fake AU format
+I0191,malformed_tin,wrong_length,R03,self_certification,C000579,,tin_1,AU-FAKE-5515086660,,TIN does not fit the fake AU format
+I0192,malformed_tin,letter_in_digits,R03,self_certification,C000718,,tin_1,AU-FAKE-373O82730,,TIN does not fit the fake AU format
+I0193,malformed_tin,wrong_country_prefix,R03,self_certification,C000286,,tin_1,IE-FAKE-8295109677,,TIN does not fit the fake IN format
+I0194,malformed_tin,missing_prefix,R03,self_certification,C001565,,tin_1,290547700,,TIN does not fit the fake AU format
+I0195,malformed_tin,repeated_digit,R03,self_certification,C001367,,tin_1,AU-FAKE-999999999,,TIN does not fit the fake AU format
+I0196,malformed_tin,wrong_length,R03,self_certification,C001554,,tin_1,AU-FAKE-44038372,,TIN does not fit the fake AU format
+I0197,malformed_tin,letter_in_digits,R03,self_certification,C001221,,tin_1,AU-FAKE-279078O38,,TIN does not fit the fake AU format
+I0198,malformed_tin,wrong_country_prefix,R03,self_certification,C000590,,tin_1,DE-FAKE-504260232,,TIN does not fit the fake AU format
+I0199,malformed_tin,missing_prefix,R03,self_certification,C000919,,tin_1,595078417,,TIN does not fit the fake US format
+I0200,malformed_tin,repeated_digit,R03,self_certification,C000319,,tin_1,AU-FAKE-555555555,,TIN does not fit the fake AU format
+I0201,residence_selfcert_mismatch,,R04,self_certification,C001321,,tax_residency_1,IE,,Customer master residence AU but self-certified tax residency is IE only
+I0202,residence_selfcert_mismatch,,R04,self_certification,C001296,,tax_residency_1,FR,,Customer master residence AU but self-certified tax residency is FR only
+I0203,residence_selfcert_mismatch,,R04,self_certification,C000758,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0204,residence_selfcert_mismatch,,R04,self_certification,C000166,,tax_residency_1,GB,,Customer master residence AU but self-certified tax residency is GB only
+I0205,residence_selfcert_mismatch,,R04,self_certification,C000750,,tax_residency_1,AU,,Customer master residence DE but self-certified tax residency is AU only
+I0206,residence_selfcert_mismatch,,R04,self_certification,C001035,,tax_residency_1,IE,,Customer master residence NZ but self-certified tax residency is IE only
+I0207,residence_selfcert_mismatch,,R04,self_certification,C001310,,tax_residency_1,AU,,Customer master residence GB but self-certified tax residency is AU only
+I0208,residence_selfcert_mismatch,,R04,self_certification,C001860,,tax_residency_1,DE,,Customer master residence AU but self-certified tax residency is DE only
+I0209,residence_selfcert_mismatch,,R04,self_certification,C001580,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0210,residence_selfcert_mismatch,,R04,self_certification,C000328,,tax_residency_1,AU,,Customer master residence FR but self-certified tax residency is AU only
+I0211,residence_selfcert_mismatch,,R04,self_certification,C001435,,tax_residency_1,DE,,Customer master residence AU but self-certified tax residency is DE only
+I0212,residence_selfcert_mismatch,,R04,self_certification,C000889,,tax_residency_1,GB,,Customer master residence AU but self-certified tax residency is GB only
+I0213,residence_selfcert_mismatch,,R04,self_certification,C001865,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0214,residence_selfcert_mismatch,,R04,self_certification,C001804,,tax_residency_1,FR,,Customer master residence AU but self-certified tax residency is FR only
+I0215,residence_selfcert_mismatch,,R04,self_certification,C000141,,tax_residency_1,IN,,Customer master residence AU but self-certified tax residency is IN only
+I0216,residence_selfcert_mismatch,,R04,self_certification,C001270,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0217,residence_selfcert_mismatch,,R04,self_certification,C001997,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0218,residence_selfcert_mismatch,,R04,self_certification,C001548,,tax_residency_1,IN,,Customer master residence AU but self-certified tax residency is IN only
+I0219,residence_selfcert_mismatch,,R04,self_certification,C000304,,tax_residency_1,IE,,Customer master residence AU but self-certified tax residency is IE only
+I0220,residence_selfcert_mismatch,,R04,self_certification,C000008,,tax_residency_1,IE,,Customer master residence AU but self-certified tax residency is IE only
+I0221,residence_selfcert_mismatch,,R04,self_certification,C001066,,tax_residency_1,GB,,Customer master residence IN but self-certified tax residency is GB only
+I0222,residence_selfcert_mismatch,,R04,self_certification,C001934,,tax_residency_1,DE,,Customer master residence AU but self-certified tax residency is DE only
+I0223,residence_selfcert_mismatch,,R04,self_certification,C000972,,tax_residency_1,FR,,Customer master residence DE but self-certified tax residency is FR only
+I0224,residence_selfcert_mismatch,,R04,self_certification,C001643,,tax_residency_1,FR,,Customer master residence AU but self-certified tax residency is FR only
+I0225,residence_selfcert_mismatch,,R04,self_certification,C000387,,tax_residency_1,DE,,Customer master residence AU but self-certified tax residency is DE only
+I0226,residence_selfcert_mismatch,,R04,self_certification,C000733,,tax_residency_1,GB,,Customer master residence AU but self-certified tax residency is GB only
+I0227,residence_selfcert_mismatch,,R04,self_certification,C001544,,tax_residency_1,IE,,Customer master residence IN but self-certified tax residency is IE only
+I0228,residence_selfcert_mismatch,,R04,self_certification,C001222,,tax_residency_1,FR,,Customer master residence AU but self-certified tax residency is FR only
+I0229,residence_selfcert_mismatch,,R04,self_certification,C001058,,tax_residency_1,NZ,,Customer master residence GB but self-certified tax residency is NZ only
+I0230,residence_selfcert_mismatch,,R04,self_certification,C001787,,tax_residency_1,IE,,Customer master residence GB but self-certified tax residency is IE only
+I0231,residence_selfcert_mismatch,,R04,self_certification,C001192,,tax_residency_1,IE,,Customer master residence AU but self-certified tax residency is IE only
+I0232,residence_selfcert_mismatch,,R04,self_certification,C001003,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0233,residence_selfcert_mismatch,,R04,self_certification,C001488,,tax_residency_1,DE,,Customer master residence AU but self-certified tax residency is DE only
+I0234,residence_selfcert_mismatch,,R04,self_certification,C000908,,tax_residency_1,FR,,Customer master residence AU but self-certified tax residency is FR only
+I0235,residence_selfcert_mismatch,,R04,self_certification,C001478,,tax_residency_1,FR,,Customer master residence AU but self-certified tax residency is FR only
+I0236,residence_selfcert_mismatch,,R04,self_certification,C001993,,tax_residency_1,NZ,,Customer master residence DE but self-certified tax residency is NZ only
+I0237,residence_selfcert_mismatch,,R04,self_certification,C001506,,tax_residency_1,GB,,Customer master residence AU but self-certified tax residency is GB only
+I0238,residence_selfcert_mismatch,,R04,self_certification,C000157,,tax_residency_1,GB,,Customer master residence FR but self-certified tax residency is GB only
+I0239,residence_selfcert_mismatch,,R04,self_certification,C000104,,tax_residency_1,NZ,,Customer master residence AU but self-certified tax residency is NZ only
+I0240,residence_selfcert_mismatch,,R04,self_certification,C000850,,tax_residency_1,DE,,Customer master residence AU but self-certified tax residency is DE only
+I0241,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C001172,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0242,us_indicia_no_declaration,us_residence_address,R05,customer_master,C001172,,residence_address,"3690 Melissa Causeway, Deanfort, OH 92657, United States",,US indicia present but US person declaration is N
+I0243,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C000929,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0244,us_indicia_no_declaration,us_residence_address,R05,customer_master,C000929,,residence_address,"672 Thompson Summit, Jacksonshire, MT 21856, United States",,US indicia present but US person declaration is N
+I0245,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C001140,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still IN
+I0246,us_indicia_no_declaration,us_residence_address,R05,customer_master,C001140,,residence_address,"879 Brad Lodge, Jessicatown, OK 36995, United States",,US indicia present but US person declaration is N
+I0247,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C000842,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0248,us_indicia_no_declaration,us_residence_address,R05,customer_master,C000842,,residence_address,"2940 Melissa Light Apt. 359, Collierport, NC 71683, United States",,US indicia present but US person declaration is N
+I0249,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C001578,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0250,us_indicia_no_declaration,us_residence_address,R05,customer_master,C001578,,residence_address,"530 Burton Key, Lake Daniel, OH 72165, United States",,US indicia present but US person declaration is N
+I0251,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C001869,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0252,us_indicia_no_declaration,us_residence_address,R05,customer_master,C001869,,residence_address,"292 Gary Stravenue Apt. 150, Port Roberta, AR 14398, United States",,US indicia present but US person declaration is N
+I0253,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C000500,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still DE
+I0254,us_indicia_no_declaration,us_residence_address,R05,customer_master,C000500,,residence_address,"809 Carol Brook, Joshuahaven, AK 31014, United States",,US indicia present but US person declaration is N
+I0255,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C000585,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0256,us_indicia_no_declaration,us_residence_address,R05,customer_master,C000585,,residence_address,"982 Lori Crest, Lake Joycechester, AR 75673, United States",,US indicia present but US person declaration is N
+I0257,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C001325,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still IN
+I0258,us_indicia_no_declaration,us_residence_address,R05,customer_master,C001325,,residence_address,"244 Clinton Circle, New Elainemouth, IN 63076, United States",,US indicia present but US person declaration is N
+I0259,residence_selfcert_mismatch,side_effect_of_us_residence,R04,customer_master,C000810,,country_of_residence,US,,Residence moved to US but self-certified tax residency is still AU
+I0260,us_indicia_no_declaration,us_residence_address,R05,customer_master,C000810,,residence_address,"6878 Harris Falls Suite 311, Harrisonview, OH 91440, United States",,US indicia present but US person declaration is N
+I0261,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C000804,,mailing_address,"6367 Carpenter Common, Port Kathryn, LA 77541, United States",,US indicia present but US person declaration is N
+I0262,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C000914,,mailing_address,"6730 Gallegos Views Suite 133, New Brianview, WV 66149, USA",,US indicia present but US person declaration is N
+I0263,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001301,,mailing_address,"3370 Harris Ways, East Raymond, NY 87429, USA",,US indicia present but US person declaration is N
+I0264,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C000742,,mailing_address,"209 Tammy Center, Port Tina, CO 33716, United States",,US indicia present but US person declaration is N
+I0265,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001415,,mailing_address,"587 Nixon Extension, Moonland, NH 78672, United States of America",,US indicia present but US person declaration is N
+I0266,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001830,,mailing_address,"755 Victoria Meadows, North Shawnport, MI 51927, United States of America",,US indicia present but US person declaration is N
+I0267,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001340,,mailing_address,"1626 Karen Ranch, Zoetown, IL 38285, United States of America",,US indicia present but US person declaration is N
+I0268,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001033,,mailing_address,"29741 Ronald Plains, Lake Robertberg, DC 22294, United States",,US indicia present but US person declaration is N
+I0269,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001401,,mailing_address,"02295 Sheila Spur, Lake Jamiemouth, IL 84456, United States of America",,US indicia present but US person declaration is N
+I0270,us_indicia_no_declaration,us_mailing_address,R05,customer_master,C001237,,mailing_address,"346 Alicia Mission, Port Debbiemouth, VA 02095, USA",,US indicia present but US person declaration is N
+I0271,us_indicia_no_declaration,us_phone,R05,customer_master,C000645,,phone_numbers,+1 (258) 555-0190,,US indicia present but US person declaration is N
+I0272,us_indicia_no_declaration,us_phone,R05,customer_master,C000170,,phone_numbers,+1 (270) 555-0135,,US indicia present but US person declaration is N
+I0273,us_indicia_no_declaration,us_phone,R05,customer_master,C001890,,phone_numbers,+61 417 466 873; +1 (612) 555-0176,,US indicia present but US person declaration is N
+I0274,us_indicia_no_declaration,us_phone,R05,customer_master,C000014,,phone_numbers,+1 (361) 555-0186,,US indicia present but US person declaration is N
+I0275,us_indicia_no_declaration,us_phone,R05,customer_master,C000145,,phone_numbers,+61 484 500 601; +61 422 947 962; +1 (452) 555-0132,,US indicia present but US person declaration is N
+I0276,us_indicia_no_declaration,us_phone,R05,customer_master,C000831,,phone_numbers,+61 495 684 950; +1 (618) 555-0133,,US indicia present but US person declaration is N
+I0277,us_indicia_no_declaration,us_phone,R05,customer_master,C001560,,phone_numbers,+1 (910) 555-0169,,US indicia present but US person declaration is N
+I0278,us_indicia_no_declaration,us_phone,R05,customer_master,C000970,,phone_numbers,+1 (386) 555-0154,,US indicia present but US person declaration is N
+I0279,us_indicia_no_declaration,us_phone,R05,customer_master,C001200,,phone_numbers,+1 (656) 555-0176,,US indicia present but US person declaration is N
+I0280,us_indicia_no_declaration,us_phone,R05,customer_master,C001290,,phone_numbers,+61 488 631 441; +1 (572) 555-0189,,US indicia present but US person declaration is N
+I0281,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001103,,place_of_birth,"South Katherinefurt, USA",,US indicia present but US person declaration is N
+I0282,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001800,,place_of_birth,"Lake Kevin, United States",,US indicia present but US person declaration is N
+I0283,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001070,,place_of_birth,"Christophertown, USA",,US indicia present but US person declaration is N
+I0284,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C000736,,place_of_birth,"Zacharymouth, United States",,US indicia present but US person declaration is N
+I0285,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001968,,place_of_birth,"Port Michelebury, USA",,US indicia present but US person declaration is N
+I0286,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001923,,place_of_birth,"East Tiffany, USA",,US indicia present but US person declaration is N
+I0287,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C000322,,place_of_birth,"South Carolyn, United States",,US indicia present but US person declaration is N
+I0288,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001073,,place_of_birth,"North Jeffery, United States",,US indicia present but US person declaration is N
+I0289,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C001840,,place_of_birth,"New Cameron, USA",,US indicia present but US person declaration is N
+I0290,us_indicia_no_declaration,us_place_of_birth,R05,customer_master,C000391,,place_of_birth,"West Kevinfurt, United States",,US indicia present but US person declaration is N
+I0291,missing_selfcert,,R08,self_certification,C001657,,customer_id,C001657,,No self-certification on file
+I0292,missing_selfcert,,R08,self_certification,C000823,,customer_id,C000823,,No self-certification on file
+I0293,missing_selfcert,,R08,self_certification,C000471,,customer_id,C000471,,No self-certification on file
+I0294,missing_selfcert,,R08,self_certification,C000101,,customer_id,C000101,,No self-certification on file
+I0295,missing_selfcert,,R08,self_certification,C000717,,customer_id,C000717,,No self-certification on file
+I0296,missing_selfcert,,R08,self_certification,C001247,,customer_id,C001247,,No self-certification on file
+I0297,missing_selfcert,,R08,self_certification,C000252,,customer_id,C000252,,No self-certification on file
+I0298,missing_selfcert,,R08,self_certification,C001569,,customer_id,C001569,,No self-certification on file
+I0299,missing_selfcert,,R08,self_certification,C001742,,customer_id,C001742,,No self-certification on file
+I0300,missing_selfcert,,R08,self_certification,C000214,,customer_id,C000214,,No self-certification on file
+I0301,missing_selfcert,,R08,self_certification,C001956,,customer_id,C001956,,No self-certification on file
+I0302,missing_selfcert,,R08,self_certification,C000765,,customer_id,C000765,,No self-certification on file
+I0303,missing_selfcert,,R08,self_certification,C000764,,customer_id,C000764,,No self-certification on file
+I0304,missing_selfcert,,R08,self_certification,C000316,,customer_id,C000316,,No self-certification on file
+I0305,missing_selfcert,,R08,self_certification,C000694,,customer_id,C000694,,No self-certification on file
+I0306,missing_selfcert,,R08,self_certification,C000023,,customer_id,C000023,,No self-certification on file
+I0307,missing_selfcert,,R08,self_certification,C000217,,customer_id,C000217,,No self-certification on file
+I0308,missing_selfcert,,R08,self_certification,C000491,,customer_id,C000491,,No self-certification on file
+I0309,missing_selfcert,,R08,self_certification,C000135,,customer_id,C000135,,No self-certification on file
+I0310,missing_selfcert,,R08,self_certification,C001091,,customer_id,C001091,,No self-certification on file
+I0311,missing_selfcert,,R08,self_certification,C000924,,customer_id,C000924,,No self-certification on file
+I0312,missing_selfcert,,R08,self_certification,C000143,,customer_id,C000143,,No self-certification on file
+I0313,missing_selfcert,,R08,self_certification,C001429,,customer_id,C001429,,No self-certification on file
+I0314,missing_selfcert,,R08,self_certification,C001365,,customer_id,C001365,,No self-certification on file
+I0315,missing_selfcert,,R08,self_certification,C001031,,customer_id,C001031,,No self-certification on file
+I0316,missing_selfcert,,R08,self_certification,C001937,,customer_id,C001937,,No self-certification on file
+I0317,missing_selfcert,,R08,self_certification,C000332,,customer_id,C000332,,No self-certification on file
+I0318,missing_selfcert,,R08,self_certification,C001570,,customer_id,C001570,,No self-certification on file
+I0319,missing_selfcert,,R08,self_certification,C001404,,customer_id,C001404,,No self-certification on file
+I0320,missing_selfcert,,R08,self_certification,C001685,,customer_id,C001685,,No self-certification on file
+I0321,missing_selfcert,,R08,self_certification,C000616,,customer_id,C000616,,No self-certification on file
+I0322,missing_selfcert,,R08,self_certification,C001158,,customer_id,C001158,,No self-certification on file
+I0323,missing_selfcert,,R08,self_certification,C000298,,customer_id,C000298,,No self-certification on file
+I0324,missing_selfcert,,R08,self_certification,C000466,,customer_id,C000466,,No self-certification on file
+I0325,missing_selfcert,,R08,self_certification,C001052,,customer_id,C001052,,No self-certification on file
+I0326,missing_selfcert,,R08,self_certification,C001188,,customer_id,C001188,,No self-certification on file
+I0327,missing_selfcert,,R08,self_certification,C001191,,customer_id,C001191,,No self-certification on file
+I0328,missing_selfcert,,R08,self_certification,C001486,,customer_id,C001486,,No self-certification on file
+I0329,missing_selfcert,,R08,self_certification,C001925,,customer_id,C001925,,No self-certification on file
+I0330,missing_selfcert,,R08,self_certification,C000553,,customer_id,C000553,,No self-certification on file
+I0331,selfcert_out_of_date,undated,R08,self_certification,C001751,,date_signed,,,Self-certification has no signature date
+I0332,selfcert_out_of_date,undated,R08,self_certification,C001390,,date_signed,,,Self-certification has no signature date
+I0333,selfcert_out_of_date,undated,R08,self_certification,C001129,,date_signed,,,Self-certification has no signature date
+I0334,selfcert_out_of_date,undated,R08,self_certification,C000627,,date_signed,,,Self-certification has no signature date
+I0335,selfcert_out_of_date,undated,R08,self_certification,C001682,,date_signed,,,Self-certification has no signature date
+I0336,selfcert_out_of_date,undated,R08,self_certification,C000577,,date_signed,,,Self-certification has no signature date
+I0337,selfcert_out_of_date,undated,R08,self_certification,C000254,,date_signed,,,Self-certification has no signature date
+I0338,selfcert_out_of_date,undated,R08,self_certification,C001450,,date_signed,,,Self-certification has no signature date
+I0339,selfcert_out_of_date,undated,R08,self_certification,C001796,,date_signed,,,Self-certification has no signature date
+I0340,selfcert_out_of_date,undated,R08,self_certification,C001717,,date_signed,,,Self-certification has no signature date
+I0341,selfcert_out_of_date,future_dated,R08,self_certification,C001152,,date_signed,2027-12-19,,Self-certification dated after the reporting date
+I0342,selfcert_out_of_date,future_dated,R08,self_certification,C000441,,date_signed,2027-02-09,,Self-certification dated after the reporting date
+I0343,selfcert_out_of_date,future_dated,R08,self_certification,C001579,,date_signed,2027-09-23,,Self-certification dated after the reporting date
+I0344,selfcert_out_of_date,future_dated,R08,self_certification,C001446,,date_signed,2027-06-23,,Self-certification dated after the reporting date
+I0345,selfcert_out_of_date,future_dated,R08,self_certification,C000537,,date_signed,2027-07-09,,Self-certification dated after the reporting date
+I0346,selfcert_out_of_date,future_dated,R08,self_certification,C000194,,date_signed,2027-03-11,,Self-certification dated after the reporting date
+I0347,selfcert_out_of_date,future_dated,R08,self_certification,C000117,,date_signed,2027-01-29,,Self-certification dated after the reporting date
+I0348,selfcert_out_of_date,future_dated,R08,self_certification,C001370,,date_signed,2027-09-11,,Self-certification dated after the reporting date
+I0349,selfcert_out_of_date,future_dated,R08,self_certification,C000524,,date_signed,2027-02-26,,Self-certification dated after the reporting date
+I0350,selfcert_out_of_date,future_dated,R08,self_certification,C000255,,date_signed,2027-01-21,,Self-certification dated after the reporting date
+I0351,format_unfixable,country_typo,R09,customer_master,C000861,,country_of_residence,Ausralia,,Country of residence cannot be mapped to an ISO code
+I0352,format_unfixable,country_typo,R09,customer_master,C000026,,country_of_residence,Ausralia,,Country of residence cannot be mapped to an ISO code
+I0353,format_unfixable,country_typo,R09,customer_master,C000814,,country_of_residence,Ausralia,,Country of residence cannot be mapped to an ISO code
+I0354,format_unfixable,country_typo,R09,customer_master,C000350,,country_of_residence,Ausralia,,Country of residence cannot be mapped to an ISO code
+I0355,format_unfixable,country_typo,R09,customer_master,C001359,,country_of_residence,Ausralia,,Country of residence cannot be mapped to an ISO code
+I0356,format_unfixable,invalid_date,R09,customer_master,C000454,,date_of_birth,31/02/1985,,Date of birth is not a valid date
+I0357,format_unfixable,invalid_date,R09,customer_master,C001596,,date_of_birth,1979-13-07,,Date of birth is not a valid date
+I0358,format_unfixable,invalid_date,R09,customer_master,C000882,,date_of_birth,unknown,,Date of birth is not a valid date
+I0359,format_unfixable,invalid_date,R09,customer_master,C000821,,date_of_birth,30/02/1991,,Date of birth is not a valid date
+I0360,format_unfixable,invalid_date,R09,customer_master,C001082,,date_of_birth,1968-00-12,,Date of birth is not a valid date
+I0361,format_unfixable,invalid_date,R09,customer_master,C000062,,date_of_birth,TBC,,Date of birth is not a valid date
+I0362,format_unfixable,country_typo,R09,self_certification,C000042,,tax_residency_1,Ausralia,,Tax residency country cannot be mapped to an ISO code
+I0363,format_unfixable,country_typo,R09,self_certification,C000365,,tax_residency_1,Ausralia,,Tax residency country cannot be mapped to an ISO code
+I0364,format_unfixable,country_typo,R09,self_certification,C001758,,tax_residency_1,Untied Kingdom,,Tax residency country cannot be mapped to an ISO code
+I0365,format_unfixable,country_typo,R09,self_certification,C000775,,tax_residency_1,Ausralia,,Tax residency country cannot be mapped to an ISO code
+I0366,format_unfixable,country_typo,R09,self_certification,C000739,,tax_residency_1,New Zeland,,Tax residency country cannot be mapped to an ISO code
+I0367,format_unfixable,invalid_flag,R09,self_certification,C001637,,us_person,U,,US person declaration is not Y or N
+I0368,format_unfixable,invalid_flag,R09,self_certification,C000056,,us_person,?,,US person declaration is not Y or N
+I0369,format_unfixable,invalid_flag,R09,self_certification,C001695,,us_person,,,US person declaration is not Y or N
+I0370,format_unfixable,invalid_flag,R09,self_certification,C000601,,us_person,U,,US person declaration is not Y or N
+I0371,format_unfixable,invalid_flag,R09,self_certification,C000314,,us_person,maybe,,US person declaration is not Y or N
+I0372,format_unfixable,invalid_date,R09,accounts,A0002221,,open_date,2019-02-30,,Open date is not a valid date
+I0373,format_unfixable,invalid_date,R09,accounts,A0000270,,open_date,13/13/2018,,Open date is not a valid date
+I0374,format_unfixable,invalid_date,R09,accounts,A0002136,,open_date,TBC,,Open date is not a valid date
+I0375,format_unfixable,invalid_date,R09,accounts,A0002284,,open_date,2021-31-12,,Open date is not a valid date
+I0376,format_unfixable,invalid_date,R09,accounts,A0002251,,open_date,00/00/0000,,Open date is not a valid date
+I0377,format_unfixable,ambiguous_currency,R09,accounts,A0001651,,currency,$,,Currency is ambiguous or missing
+I0378,format_unfixable,ambiguous_currency,R09,accounts,A0001345,,currency,$,,Currency is ambiguous or missing
+I0379,format_unfixable,ambiguous_currency,R09,accounts,A0002919,,currency,$,,Currency is ambiguous or missing
+I0380,format_unfixable,ambiguous_currency,R09,accounts,A0000411,,currency,$,,Currency is ambiguous or missing
+I0381,format_unfixable,blank_currency,R09,accounts,A0001416,,currency,,,Currency is ambiguous or missing
+I0382,format_unfixable,blank_currency,R09,accounts,A0000149,,currency,,,Currency is ambiguous or missing
+I0383,format_fixable,date_dmy,STAGING_FIX,customer_master,C001510,,date_of_birth,20/09/1978,1978-09-20,Date of birth in dd/mm/yyyy
+I0384,format_fixable,date_dmy,STAGING_FIX,customer_master,C001368,,date_of_birth,11/05/1959,1959-05-11,Date of birth in dd/mm/yyyy
+I0385,format_fixable,date_dmy,STAGING_FIX,customer_master,C001995,,date_of_birth,18/10/1996,1996-10-18,Date of birth in dd/mm/yyyy
+I0386,format_fixable,date_dmy,STAGING_FIX,customer_master,C000767,,date_of_birth,09/06/2004,2004-06-09,Date of birth in dd/mm/yyyy
+I0387,format_fixable,date_dmy,STAGING_FIX,customer_master,C000609,,date_of_birth,15/06/1966,1966-06-15,Date of birth in dd/mm/yyyy
+I0388,format_fixable,date_dmy,STAGING_FIX,customer_master,C001649,,date_of_birth,26/03/1942,1942-03-26,Date of birth in dd/mm/yyyy
+I0389,format_fixable,date_dmy,STAGING_FIX,customer_master,C001534,,date_of_birth,29/05/1962,1962-05-29,Date of birth in dd/mm/yyyy
+I0390,format_fixable,date_dmy,STAGING_FIX,customer_master,C000372,,date_of_birth,02/03/1958,1958-03-02,Date of birth in dd/mm/yyyy
+I0391,format_fixable,date_dmy,STAGING_FIX,customer_master,C001826,,date_of_birth,30/12/1953,1953-12-30,Date of birth in dd/mm/yyyy
+I0392,format_fixable,date_dmy,STAGING_FIX,customer_master,C001677,,date_of_birth,15/04/1977,1977-04-15,Date of birth in dd/mm/yyyy
+I0393,format_fixable,date_dmy,STAGING_FIX,customer_master,C001806,,date_of_birth,22/07/1953,1953-07-22,Date of birth in dd/mm/yyyy
+I0394,format_fixable,date_dmy,STAGING_FIX,customer_master,C001402,,date_of_birth,30/03/1997,1997-03-30,Date of birth in dd/mm/yyyy
+I0395,format_fixable,date_dmy,STAGING_FIX,customer_master,C001219,,date_of_birth,12/11/1944,1944-11-12,Date of birth in dd/mm/yyyy
+I0396,format_fixable,date_dmy,STAGING_FIX,customer_master,C001119,,date_of_birth,01/09/1985,1985-09-01,Date of birth in dd/mm/yyyy
+I0397,format_fixable,date_dmy,STAGING_FIX,customer_master,C000440,,date_of_birth,24/02/1956,1956-02-24,Date of birth in dd/mm/yyyy
+I0398,format_fixable,date_dmy,STAGING_FIX,customer_master,C000056,,date_of_birth,05/03/1941,1941-03-05,Date of birth in dd/mm/yyyy
+I0399,format_fixable,date_dmy,STAGING_FIX,customer_master,C000621,,date_of_birth,20/08/1945,1945-08-20,Date of birth in dd/mm/yyyy
+I0400,format_fixable,date_dmy,STAGING_FIX,customer_master,C001508,,date_of_birth,27/10/1993,1993-10-27,Date of birth in dd/mm/yyyy
+I0401,format_fixable,date_dmy,STAGING_FIX,customer_master,C000204,,date_of_birth,03/11/1981,1981-11-03,Date of birth in dd/mm/yyyy
+I0402,format_fixable,date_dmy,STAGING_FIX,customer_master,C000722,,date_of_birth,03/06/1964,1964-06-03,Date of birth in dd/mm/yyyy
+I0403,format_fixable,date_dmy,STAGING_FIX,customer_master,C001654,,date_of_birth,10/08/1993,1993-08-10,Date of birth in dd/mm/yyyy
+I0404,format_fixable,date_dmy,STAGING_FIX,customer_master,C000816,,date_of_birth,30/10/1942,1942-10-30,Date of birth in dd/mm/yyyy
+I0405,format_fixable,date_dmy,STAGING_FIX,customer_master,C000126,,date_of_birth,16/03/1956,1956-03-16,Date of birth in dd/mm/yyyy
+I0406,format_fixable,date_dmy,STAGING_FIX,customer_master,C000097,,date_of_birth,26/08/1985,1985-08-26,Date of birth in dd/mm/yyyy
+I0407,format_fixable,date_dmy,STAGING_FIX,customer_master,C000007,,date_of_birth,12/06/1952,1952-06-12,Date of birth in dd/mm/yyyy
+I0408,format_fixable,date_dmy,STAGING_FIX,customer_master,C000294,,date_of_birth,13/10/1994,1994-10-13,Date of birth in dd/mm/yyyy
+I0409,format_fixable,date_dmy,STAGING_FIX,customer_master,C001026,,date_of_birth,28/11/1948,1948-11-28,Date of birth in dd/mm/yyyy
+I0410,format_fixable,date_dmy,STAGING_FIX,customer_master,C001986,,date_of_birth,09/04/2004,2004-04-09,Date of birth in dd/mm/yyyy
+I0411,format_fixable,date_dmy,STAGING_FIX,customer_master,C000645,,date_of_birth,26/06/1989,1989-06-26,Date of birth in dd/mm/yyyy
+I0412,format_fixable,date_dmy,STAGING_FIX,customer_master,C001513,,date_of_birth,19/07/1972,1972-07-19,Date of birth in dd/mm/yyyy
+I0413,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000148,,date_of_birth,23-Nov-1974,1974-11-23,Date of birth in d-Mon-yyyy
+I0414,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001691,,date_of_birth,2-Jan-1999,1999-01-02,Date of birth in d-Mon-yyyy
+I0415,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000466,,date_of_birth,16-Jan-1957,1957-01-16,Date of birth in d-Mon-yyyy
+I0416,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000761,,date_of_birth,9-Mar-1994,1994-03-09,Date of birth in d-Mon-yyyy
+I0417,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001084,,date_of_birth,15-Oct-1974,1974-10-15,Date of birth in d-Mon-yyyy
+I0418,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001458,,date_of_birth,8-Sep-1989,1989-09-08,Date of birth in d-Mon-yyyy
+I0419,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000309,,date_of_birth,12-Aug-2005,2005-08-12,Date of birth in d-Mon-yyyy
+I0420,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001425,,date_of_birth,23-May-2002,2002-05-23,Date of birth in d-Mon-yyyy
+I0421,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000536,,date_of_birth,19-Mar-1988,1988-03-19,Date of birth in d-Mon-yyyy
+I0422,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000897,,date_of_birth,19-Jan-1940,1940-01-19,Date of birth in d-Mon-yyyy
+I0423,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001601,,date_of_birth,27-Jan-1987,1987-01-27,Date of birth in d-Mon-yyyy
+I0424,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C000437,,date_of_birth,16-Apr-2004,2004-04-16,Date of birth in d-Mon-yyyy
+I0425,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001757,,date_of_birth,30-Aug-1970,1970-08-30,Date of birth in d-Mon-yyyy
+I0426,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001535,,date_of_birth,22-Oct-1942,1942-10-22,Date of birth in d-Mon-yyyy
+I0427,format_fixable,date_d_mon_y,STAGING_FIX,customer_master,C001369,,date_of_birth,16-Apr-1943,1943-04-16,Date of birth in d-Mon-yyyy
+I0428,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C000551,,date_of_birth,19640801,1964-08-01,Date of birth in yyyymmdd
+I0429,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C000009,,date_of_birth,19760622,1976-06-22,Date of birth in yyyymmdd
+I0430,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001908,,date_of_birth,19661108,1966-11-08,Date of birth in yyyymmdd
+I0431,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001904,,date_of_birth,19780705,1978-07-05,Date of birth in yyyymmdd
+I0432,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001000,,date_of_birth,19771113,1977-11-13,Date of birth in yyyymmdd
+I0433,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001021,,date_of_birth,19470106,1947-01-06,Date of birth in yyyymmdd
+I0434,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001668,,date_of_birth,19471005,1947-10-05,Date of birth in yyyymmdd
+I0435,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C000253,,date_of_birth,19860429,1986-04-29,Date of birth in yyyymmdd
+I0436,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001024,,date_of_birth,19600731,1960-07-31,Date of birth in yyyymmdd
+I0437,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C000077,,date_of_birth,19800130,1980-01-30,Date of birth in yyyymmdd
+I0438,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001022,,date_of_birth,19940828,1994-08-28,Date of birth in yyyymmdd
+I0439,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C000805,,date_of_birth,19640703,1964-07-03,Date of birth in yyyymmdd
+I0440,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001786,,date_of_birth,19750706,1975-07-06,Date of birth in yyyymmdd
+I0441,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C001840,,date_of_birth,19930220,1993-02-20,Date of birth in yyyymmdd
+I0442,format_fixable,date_yyyymmdd,STAGING_FIX,customer_master,C000262,,date_of_birth,19950424,1995-04-24,Date of birth in yyyymmdd
+I0443,format_fixable,country_name,STAGING_FIX,customer_master,C001363,,country_of_residence,Australia,AU,Country written as an English name
+I0444,format_fixable,country_name,STAGING_FIX,customer_master,C000650,,country_of_residence,Australia,AU,Country written as an English name
+I0445,format_fixable,country_name,STAGING_FIX,customer_master,C000427,,country_of_residence,Australia,AU,Country written as an English name
+I0446,format_fixable,country_name,STAGING_FIX,customer_master,C001788,,country_of_residence,Ireland,IE,Country written as an English name
+I0447,format_fixable,country_name,STAGING_FIX,customer_master,C000252,,country_of_residence,Germany,DE,Country written as an English name
+I0448,format_fixable,country_name,STAGING_FIX,customer_master,C000829,,country_of_residence,Australia,AU,Country written as an English name
+I0449,format_fixable,country_name,STAGING_FIX,customer_master,C001932,,country_of_residence,France,FR,Country written as an English name
+I0450,format_fixable,country_name,STAGING_FIX,customer_master,C000008,,country_of_residence,Australia,AU,Country written as an English name
+I0451,format_fixable,country_name,STAGING_FIX,customer_master,C001247,,country_of_residence,Australia,AU,Country written as an English name
+I0452,format_fixable,country_name,STAGING_FIX,customer_master,C001347,,country_of_residence,New Zealand,NZ,Country written as an English name
+I0453,format_fixable,country_name,STAGING_FIX,customer_master,C000403,,country_of_residence,New Zealand,NZ,Country written as an English name
+I0454,format_fixable,country_name,STAGING_FIX,customer_master,C000688,,country_of_residence,Australia,AU,Country written as an English name
+I0455,format_fixable,country_name,STAGING_FIX,customer_master,C001353,,country_of_residence,India,IN,Country written as an English name
+I0456,format_fixable,country_name,STAGING_FIX,customer_master,C001375,,country_of_residence,Australia,AU,Country written as an English name
+I0457,format_fixable,country_name,STAGING_FIX,customer_master,C001541,,country_of_residence,Australia,AU,Country written as an English name
+I0458,format_fixable,country_name,STAGING_FIX,customer_master,C001774,,country_of_residence,India,IN,Country written as an English name
+I0459,format_fixable,country_name,STAGING_FIX,customer_master,C000200,,country_of_residence,Australia,AU,Country written as an English name
+I0460,format_fixable,country_name,STAGING_FIX,customer_master,C001847,,country_of_residence,Australia,AU,Country written as an English name
+I0461,format_fixable,country_name,STAGING_FIX,customer_master,C001760,,country_of_residence,New Zealand,NZ,Country written as an English name
+I0462,format_fixable,country_name,STAGING_FIX,customer_master,C000451,,country_of_residence,Australia,AU,Country written as an English name
+I0463,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C001606,,country_of_residence,AUSTRALIA ,AU,Country name in capitals with a trailing space
+I0464,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C000879,,country_of_residence,FRANCE ,FR,Country name in capitals with a trailing space
+I0465,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C001827,,country_of_residence,AUSTRALIA ,AU,Country name in capitals with a trailing space
+I0466,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C000727,,country_of_residence,AUSTRALIA ,AU,Country name in capitals with a trailing space
+I0467,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C000532,,country_of_residence,NEW ZEALAND ,NZ,Country name in capitals with a trailing space
+I0468,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C000601,,country_of_residence,NEW ZEALAND ,NZ,Country name in capitals with a trailing space
+I0469,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C001674,,country_of_residence,AUSTRALIA ,AU,Country name in capitals with a trailing space
+I0470,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C001277,,country_of_residence,AUSTRALIA ,AU,Country name in capitals with a trailing space
+I0471,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C000504,,country_of_residence,UNITED STATES ,US,Country name in capitals with a trailing space
+I0472,format_fixable,country_name_upper_space,STAGING_FIX,customer_master,C001781,,country_of_residence,GERMANY ,DE,Country name in capitals with a trailing space
+I0473,format_fixable,country_iso3,STAGING_FIX,customer_master,C001049,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0474,format_fixable,country_iso3,STAGING_FIX,customer_master,C001237,,country_of_residence,GBR,GB,Country as an ISO alpha-3 code
+I0475,format_fixable,country_iso3,STAGING_FIX,customer_master,C000124,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0476,format_fixable,country_iso3,STAGING_FIX,customer_master,C001753,,country_of_residence,IND,IN,Country as an ISO alpha-3 code
+I0477,format_fixable,country_iso3,STAGING_FIX,customer_master,C001741,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0478,format_fixable,country_iso3,STAGING_FIX,customer_master,C000348,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0479,format_fixable,country_iso3,STAGING_FIX,customer_master,C000283,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0480,format_fixable,country_iso3,STAGING_FIX,customer_master,C000835,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0481,format_fixable,country_iso3,STAGING_FIX,customer_master,C000119,,country_of_residence,GBR,GB,Country as an ISO alpha-3 code
+I0482,format_fixable,country_iso3,STAGING_FIX,customer_master,C000799,,country_of_residence,USA,US,Country as an ISO alpha-3 code
+I0483,format_fixable,country_iso3,STAGING_FIX,customer_master,C001963,,country_of_residence,NZL,NZ,Country as an ISO alpha-3 code
+I0484,format_fixable,country_iso3,STAGING_FIX,customer_master,C000452,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0485,format_fixable,country_iso3,STAGING_FIX,customer_master,C000434,,country_of_residence,FRA,FR,Country as an ISO alpha-3 code
+I0486,format_fixable,country_iso3,STAGING_FIX,customer_master,C001890,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0487,format_fixable,country_iso3,STAGING_FIX,customer_master,C001270,,country_of_residence,AUS,AU,Country as an ISO alpha-3 code
+I0488,format_fixable,country_lower,STAGING_FIX,customer_master,C000676,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0489,format_fixable,country_lower,STAGING_FIX,customer_master,C001628,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0490,format_fixable,country_lower,STAGING_FIX,customer_master,C001351,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0491,format_fixable,country_lower,STAGING_FIX,customer_master,C000836,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0492,format_fixable,country_lower,STAGING_FIX,customer_master,C001960,,country_of_residence, gb,GB,Country code in lower case with a leading space
+I0493,format_fixable,country_lower,STAGING_FIX,customer_master,C000138,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0494,format_fixable,country_lower,STAGING_FIX,customer_master,C001016,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0495,format_fixable,country_lower,STAGING_FIX,customer_master,C000412,,country_of_residence, fr,FR,Country code in lower case with a leading space
+I0496,format_fixable,country_lower,STAGING_FIX,customer_master,C000368,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0497,format_fixable,country_lower,STAGING_FIX,customer_master,C000887,,country_of_residence, au,AU,Country code in lower case with a leading space
+I0498,format_fixable,trailing_space,STAGING_FIX,customer_master,C000125,,full_name,James Miller  ,James Miller,Name has trailing spaces
+I0499,format_fixable,trailing_space,STAGING_FIX,customer_master,C001509,,full_name,Jody Webb  ,Jody Webb,Name has trailing spaces
+I0500,format_fixable,trailing_space,STAGING_FIX,customer_master,C000156,,full_name,Robin Johnson  ,Robin Johnson,Name has trailing spaces
+I0501,format_fixable,trailing_space,STAGING_FIX,customer_master,C000772,,full_name,Mark Bates  ,Mark Bates,Name has trailing spaces
+I0502,format_fixable,trailing_space,STAGING_FIX,customer_master,C001109,,full_name,Kathleen Green  ,Kathleen Green,Name has trailing spaces
+I0503,format_fixable,trailing_space,STAGING_FIX,customer_master,C000987,,full_name,Gerard Taylor  ,Gerard Taylor,Name has trailing spaces
+I0504,format_fixable,trailing_space,STAGING_FIX,customer_master,C001110,,full_name,Monica Cook  ,Monica Cook,Name has trailing spaces
+I0505,format_fixable,trailing_space,STAGING_FIX,customer_master,C001342,,full_name,Frédérique Auger  ,Frédérique Auger,Name has trailing spaces
+I0506,format_fixable,trailing_space,STAGING_FIX,customer_master,C000553,,full_name,David Peterson  ,David Peterson,Name has trailing spaces
+I0507,format_fixable,trailing_space,STAGING_FIX,customer_master,C001961,,full_name,Tammy Jones  ,Tammy Jones,Name has trailing spaces
+I0508,format_fixable,trailing_space,STAGING_FIX,customer_master,C000563,,full_name,Amanda Gutierrez  ,Amanda Gutierrez,Name has trailing spaces
+I0509,format_fixable,trailing_space,STAGING_FIX,customer_master,C001523,,full_name,Kathleen Cunningham  ,Kathleen Cunningham,Name has trailing spaces
+I0510,format_fixable,trailing_space,STAGING_FIX,customer_master,C001161,,full_name,Taylor Norton  ,Taylor Norton,Name has trailing spaces
+I0511,format_fixable,trailing_space,STAGING_FIX,customer_master,C000120,,full_name,Jesse Knight  ,Jesse Knight,Name has trailing spaces
+I0512,format_fixable,trailing_space,STAGING_FIX,customer_master,C000901,,full_name,Heather Allen  ,Heather Allen,Name has trailing spaces
+I0513,format_fixable,trailing_space,STAGING_FIX,customer_master,C000656,,full_name,Nicholas Horton  ,Nicholas Horton,Name has trailing spaces
+I0514,format_fixable,trailing_space,STAGING_FIX,customer_master,C000251,,full_name,Karen Chavez  ,Karen Chavez,Name has trailing spaces
+I0515,format_fixable,trailing_space,STAGING_FIX,customer_master,C001164,,full_name,Melissa Carpenter  ,Melissa Carpenter,Name has trailing spaces
+I0516,format_fixable,trailing_space,STAGING_FIX,customer_master,C001360,,full_name,Sara Walker  ,Sara Walker,Name has trailing spaces
+I0517,format_fixable,trailing_space,STAGING_FIX,customer_master,C000106,,full_name,Michael Yang  ,Michael Yang,Name has trailing spaces
+I0518,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C000137,,full_name, Taylor Lawrence ,Taylor Lawrence,Name has leading and trailing spaces
+I0519,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C000279,,full_name, Andrew Dunn ,Andrew Dunn,Name has leading and trailing spaces
+I0520,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C001510,,full_name, John Curtis ,John Curtis,Name has leading and trailing spaces
+I0521,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C001777,,full_name, Lisa Anthony ,Lisa Anthony,Name has leading and trailing spaces
+I0522,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C001412,,full_name, Kim Hardie ,Kim Hardie,Name has leading and trailing spaces
+I0523,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C000162,,full_name, Matthew Miller ,Matthew Miller,Name has leading and trailing spaces
+I0524,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C000969,,full_name, Brooke Taylor ,Brooke Taylor,Name has leading and trailing spaces
+I0525,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C000495,,full_name, Shannon Lee ,Shannon Lee,Name has leading and trailing spaces
+I0526,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C000058,,full_name, Holly Kim ,Holly Kim,Name has leading and trailing spaces
+I0527,format_fixable,leading_trailing_space,STAGING_FIX,customer_master,C001404,,full_name, Robert Berry ,Robert Berry,Name has leading and trailing spaces
+I0528,format_fixable,currency_lower,STAGING_FIX,accounts,A0000150,,currency,aud,AUD,Currency code in lower case
+I0529,format_fixable,currency_lower,STAGING_FIX,accounts,A0000078,,currency,eur,EUR,Currency code in lower case
+I0530,format_fixable,currency_lower,STAGING_FIX,accounts,A0002701,,currency,aud,AUD,Currency code in lower case
+I0531,format_fixable,currency_lower,STAGING_FIX,accounts,A0000492,,currency,aud,AUD,Currency code in lower case
+I0532,format_fixable,currency_lower,STAGING_FIX,accounts,A0001934,,currency,aud,AUD,Currency code in lower case
+I0533,format_fixable,currency_lower,STAGING_FIX,accounts,A0002540,,currency,aud,AUD,Currency code in lower case
+I0534,format_fixable,currency_lower,STAGING_FIX,accounts,A0000206,,currency,aud,AUD,Currency code in lower case
+I0535,format_fixable,currency_lower,STAGING_FIX,accounts,A0001466,,currency,gbp,GBP,Currency code in lower case
+I0536,format_fixable,currency_lower,STAGING_FIX,accounts,A0001453,,currency,gbp,GBP,Currency code in lower case
+I0537,format_fixable,currency_lower,STAGING_FIX,accounts,A0000068,,currency,aud,AUD,Currency code in lower case
+I0538,format_fixable,currency_lower,STAGING_FIX,accounts,A0002685,,currency,aud,AUD,Currency code in lower case
+I0539,format_fixable,currency_lower,STAGING_FIX,accounts,A0002844,,currency,aud,AUD,Currency code in lower case
+I0540,format_fixable,currency_lower,STAGING_FIX,accounts,A0001516,,currency,aud,AUD,Currency code in lower case
+I0541,format_fixable,currency_lower,STAGING_FIX,accounts,A0000712,,currency,aud,AUD,Currency code in lower case
+I0542,format_fixable,currency_lower,STAGING_FIX,accounts,A0002809,,currency,aud,AUD,Currency code in lower case
+I0543,format_fixable,currency_lower,STAGING_FIX,accounts,A0002544,,currency,usd,USD,Currency code in lower case
+I0544,format_fixable,currency_lower,STAGING_FIX,accounts,A0000972,,currency,aud,AUD,Currency code in lower case
+I0545,format_fixable,currency_lower,STAGING_FIX,accounts,A0002940,,currency,aud,AUD,Currency code in lower case
+I0546,format_fixable,currency_lower,STAGING_FIX,accounts,A0000642,,currency,aud,AUD,Currency code in lower case
+I0547,format_fixable,currency_lower,STAGING_FIX,accounts,A0000416,,currency,aud,AUD,Currency code in lower case
+I0548,format_fixable,currency_lower,STAGING_FIX,accounts,A0002801,,currency,aud,AUD,Currency code in lower case
+I0549,format_fixable,currency_lower,STAGING_FIX,accounts,A0001277,,currency,gbp,GBP,Currency code in lower case
+I0550,format_fixable,currency_lower,STAGING_FIX,accounts,A0000629,,currency,aud,AUD,Currency code in lower case
+I0551,format_fixable,currency_lower,STAGING_FIX,accounts,A0000413,,currency,aud,AUD,Currency code in lower case
+I0552,format_fixable,currency_lower,STAGING_FIX,accounts,A0002774,,currency,aud,AUD,Currency code in lower case
+I0553,format_fixable,currency_space,STAGING_FIX,accounts,A0000570,,currency,EUR ,EUR,Currency code with a trailing space
+I0554,format_fixable,currency_space,STAGING_FIX,accounts,A0002195,,currency,AUD ,AUD,Currency code with a trailing space
+I0555,format_fixable,currency_space,STAGING_FIX,accounts,A0000766,,currency,GBP ,GBP,Currency code with a trailing space
+I0556,format_fixable,currency_space,STAGING_FIX,accounts,A0002236,,currency,AUD ,AUD,Currency code with a trailing space
+I0557,format_fixable,currency_space,STAGING_FIX,accounts,A0001602,,currency,AUD ,AUD,Currency code with a trailing space
+I0558,format_fixable,currency_space,STAGING_FIX,accounts,A0000640,,currency,AUD ,AUD,Currency code with a trailing space
+I0559,format_fixable,currency_space,STAGING_FIX,accounts,A0002106,,currency,AUD ,AUD,Currency code with a trailing space
+I0560,format_fixable,currency_space,STAGING_FIX,accounts,A0001585,,currency,AUD ,AUD,Currency code with a trailing space
+I0561,format_fixable,currency_space,STAGING_FIX,accounts,A0002227,,currency,AUD ,AUD,Currency code with a trailing space
+I0562,format_fixable,currency_space,STAGING_FIX,accounts,A0000877,,currency,AUD ,AUD,Currency code with a trailing space
+I0563,format_fixable,currency_space,STAGING_FIX,accounts,A0000242,,currency,EUR ,EUR,Currency code with a trailing space
+I0564,format_fixable,currency_space,STAGING_FIX,accounts,A0001199,,currency,AUD ,AUD,Currency code with a trailing space
+I0565,format_fixable,currency_space,STAGING_FIX,accounts,A0001025,,currency,AUD ,AUD,Currency code with a trailing space
+I0566,format_fixable,currency_space,STAGING_FIX,accounts,A0001475,,currency,AUD ,AUD,Currency code with a trailing space
+I0567,format_fixable,currency_space,STAGING_FIX,accounts,A0000224,,currency,AUD ,AUD,Currency code with a trailing space
+I0568,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002170,,currency,A$,AUD,Currency written as a symbol
+I0569,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002212,,currency,€,EUR,Currency written as a symbol
+I0570,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002423,,currency,A$,AUD,Currency written as a symbol
+I0571,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002496,,currency,A$,AUD,Currency written as a symbol
+I0572,format_fixable,currency_symbol,STAGING_FIX,accounts,A0000756,,currency,£,GBP,Currency written as a symbol
+I0573,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002299,,currency,A$,AUD,Currency written as a symbol
+I0574,format_fixable,currency_symbol,STAGING_FIX,accounts,A0001837,,currency,US$,USD,Currency written as a symbol
+I0575,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002819,,currency,A$,AUD,Currency written as a symbol
+I0576,format_fixable,currency_symbol,STAGING_FIX,accounts,A0000598,,currency,A$,AUD,Currency written as a symbol
+I0577,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002790,,currency,A$,AUD,Currency written as a symbol
+I0578,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002113,,currency,A$,AUD,Currency written as a symbol
+I0579,format_fixable,currency_symbol,STAGING_FIX,accounts,A0000548,,currency,A$,AUD,Currency written as a symbol
+I0580,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002980,,currency,NZ$,NZD,Currency written as a symbol
+I0581,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002272,,currency,A$,AUD,Currency written as a symbol
+I0582,format_fixable,currency_symbol,STAGING_FIX,accounts,A0001644,,currency,A$,AUD,Currency written as a symbol
+I0583,format_fixable,currency_symbol,STAGING_FIX,accounts,A0000036,,currency,US$,USD,Currency written as a symbol
+I0584,format_fixable,currency_symbol,STAGING_FIX,accounts,A0000388,,currency,A$,AUD,Currency written as a symbol
+I0585,format_fixable,currency_symbol,STAGING_FIX,accounts,A0001759,,currency,A$,AUD,Currency written as a symbol
+I0586,format_fixable,currency_symbol,STAGING_FIX,accounts,A0000472,,currency,NZ$,NZD,Currency written as a symbol
+I0587,format_fixable,currency_symbol,STAGING_FIX,accounts,A0002070,,currency,£,GBP,Currency written as a symbol
+I0588,format_fixable,status_upper,STAGING_FIX,accounts,A0002039,,status,OPEN,Open,Status in capitals
+I0589,format_fixable,status_upper,STAGING_FIX,accounts,A0001498,,status,OPEN,Open,Status in capitals
+I0590,format_fixable,status_upper,STAGING_FIX,accounts,A0002103,,status,OPEN,Open,Status in capitals
+I0591,format_fixable,status_upper,STAGING_FIX,accounts,A0000688,,status,OPEN,Open,Status in capitals
+I0592,format_fixable,status_upper,STAGING_FIX,accounts,A0002472,,status,OPEN,Open,Status in capitals
+I0593,format_fixable,status_upper,STAGING_FIX,accounts,A0000099,,status,OPEN,Open,Status in capitals
+I0594,format_fixable,status_upper,STAGING_FIX,accounts,A0002117,,status,OPEN,Open,Status in capitals
+I0595,format_fixable,status_upper,STAGING_FIX,accounts,A0000296,,status,CLOSED,Closed,Status in capitals
+I0596,format_fixable,status_upper,STAGING_FIX,accounts,A0000562,,status,OPEN,Open,Status in capitals
+I0597,format_fixable,status_upper,STAGING_FIX,accounts,A0000198,,status,OPEN,Open,Status in capitals
+I0598,format_fixable,status_upper,STAGING_FIX,accounts,A0001639,,status,OPEN,Open,Status in capitals
+I0599,format_fixable,status_upper,STAGING_FIX,accounts,A0002711,,status,OPEN,Open,Status in capitals
+I0600,format_fixable,status_upper,STAGING_FIX,accounts,A0000568,,status,OPEN,Open,Status in capitals
+I0601,format_fixable,status_upper,STAGING_FIX,accounts,A0000035,,status,CLOSED,Closed,Status in capitals
+I0602,format_fixable,status_upper,STAGING_FIX,accounts,A0000333,,status,OPEN,Open,Status in capitals
+I0603,format_fixable,status_upper,STAGING_FIX,accounts,A0000241,,status,CLOSED,Closed,Status in capitals
+I0604,format_fixable,status_upper,STAGING_FIX,accounts,A0001202,,status,OPEN,Open,Status in capitals
+I0605,format_fixable,status_upper,STAGING_FIX,accounts,A0001214,,status,OPEN,Open,Status in capitals
+I0606,format_fixable,status_upper,STAGING_FIX,accounts,A0002539,,status,OPEN,Open,Status in capitals
+I0607,format_fixable,status_upper,STAGING_FIX,accounts,A0001613,,status,OPEN,Open,Status in capitals
+I0608,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000193,,status,open ,Open,Status in lower case with a trailing space
+I0609,format_fixable,status_lower_space,STAGING_FIX,accounts,A0001333,,status,open ,Open,Status in lower case with a trailing space
+I0610,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000907,,status,open ,Open,Status in lower case with a trailing space
+I0611,format_fixable,status_lower_space,STAGING_FIX,accounts,A0001577,,status,open ,Open,Status in lower case with a trailing space
+I0612,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000462,,status,open ,Open,Status in lower case with a trailing space
+I0613,format_fixable,status_lower_space,STAGING_FIX,accounts,A0002250,,status,open ,Open,Status in lower case with a trailing space
+I0614,format_fixable,status_lower_space,STAGING_FIX,accounts,A0001619,,status,open ,Open,Status in lower case with a trailing space
+I0615,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000886,,status,open ,Open,Status in lower case with a trailing space
+I0616,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000572,,status,open ,Open,Status in lower case with a trailing space
+I0617,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000894,,status,open ,Open,Status in lower case with a trailing space
+I0618,format_fixable,status_lower_space,STAGING_FIX,accounts,A0002379,,status,open ,Open,Status in lower case with a trailing space
+I0619,format_fixable,status_lower_space,STAGING_FIX,accounts,A0001471,,status,open ,Open,Status in lower case with a trailing space
+I0620,format_fixable,status_lower_space,STAGING_FIX,accounts,A0001269,,status,open ,Open,Status in lower case with a trailing space
+I0621,format_fixable,status_lower_space,STAGING_FIX,accounts,A0002707,,status,open ,Open,Status in lower case with a trailing space
+I0622,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000744,,status,open ,Open,Status in lower case with a trailing space
+I0623,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000018,,status,open ,Open,Status in lower case with a trailing space
+I0624,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000611,,status,open ,Open,Status in lower case with a trailing space
+I0625,format_fixable,status_lower_space,STAGING_FIX,accounts,A0001673,,status,open ,Open,Status in lower case with a trailing space
+I0626,format_fixable,status_lower_space,STAGING_FIX,accounts,A0000660,,status,open ,Open,Status in lower case with a trailing space
+I0627,format_fixable,status_lower_space,STAGING_FIX,accounts,A0002691,,status,open ,Open,Status in lower case with a trailing space
+I0628,format_fixable,date_dmy,STAGING_FIX,accounts,A0000002,,open_date,03/03/2021,2021-03-03,Open date in dd/mm/yyyy
+I0629,format_fixable,date_dmy,STAGING_FIX,accounts,A0002971,,open_date,30/12/2018,2018-12-30,Open date in dd/mm/yyyy
+I0630,format_fixable,date_dmy,STAGING_FIX,accounts,A0001285,,open_date,04/05/2009,2009-05-04,Open date in dd/mm/yyyy
+I0631,format_fixable,date_dmy,STAGING_FIX,accounts,A0002691,,open_date,15/10/2019,2019-10-15,Open date in dd/mm/yyyy
+I0632,format_fixable,date_dmy,STAGING_FIX,accounts,A0000121,,open_date,18/02/2013,2013-02-18,Open date in dd/mm/yyyy
+I0633,format_fixable,date_dmy,STAGING_FIX,accounts,A0001805,,open_date,12/07/2013,2013-07-12,Open date in dd/mm/yyyy
+I0634,format_fixable,date_dmy,STAGING_FIX,accounts,A0001971,,open_date,14/12/2010,2010-12-14,Open date in dd/mm/yyyy
+I0635,format_fixable,date_dmy,STAGING_FIX,accounts,A0001492,,open_date,22/05/2026,2026-05-22,Open date in dd/mm/yyyy
+I0636,format_fixable,date_dmy,STAGING_FIX,accounts,A0001497,,open_date,18/05/2019,2019-05-18,Open date in dd/mm/yyyy
+I0637,format_fixable,date_dmy,STAGING_FIX,accounts,A0000742,,open_date,25/07/2013,2013-07-25,Open date in dd/mm/yyyy
+I0638,format_fixable,date_dmy,STAGING_FIX,accounts,A0001088,,open_date,04/03/2021,2021-03-04,Open date in dd/mm/yyyy
+I0639,format_fixable,date_dmy,STAGING_FIX,accounts,A0002398,,open_date,17/07/2019,2019-07-17,Open date in dd/mm/yyyy
+I0640,format_fixable,date_dmy,STAGING_FIX,accounts,A0000254,,open_date,12/11/2018,2018-11-12,Open date in dd/mm/yyyy
+I0641,format_fixable,date_dmy,STAGING_FIX,accounts,A0002564,,open_date,18/11/2015,2015-11-18,Open date in dd/mm/yyyy
+I0642,format_fixable,date_dmy,STAGING_FIX,accounts,A0002465,,open_date,29/12/2022,2022-12-29,Open date in dd/mm/yyyy
+I0643,format_fixable,date_dmy,STAGING_FIX,accounts,A0000870,,open_date,13/04/2016,2016-04-13,Open date in dd/mm/yyyy
+I0644,format_fixable,date_dmy,STAGING_FIX,accounts,A0001719,,open_date,13/05/2016,2016-05-13,Open date in dd/mm/yyyy
+I0645,format_fixable,date_dmy,STAGING_FIX,accounts,A0000711,,open_date,28/03/2022,2022-03-28,Open date in dd/mm/yyyy
+I0646,format_fixable,date_dmy,STAGING_FIX,accounts,A0002779,,open_date,05/03/2016,2016-03-05,Open date in dd/mm/yyyy
+I0647,format_fixable,date_dmy,STAGING_FIX,accounts,A0001490,,open_date,17/08/2024,2024-08-17,Open date in dd/mm/yyyy
+I0648,format_fixable,date_dmy,STAGING_FIX,accounts,A0002328,,open_date,21/03/2019,2019-03-21,Open date in dd/mm/yyyy
+I0649,format_fixable,date_dmy,STAGING_FIX,accounts,A0000547,,open_date,01/01/2023,2023-01-01,Open date in dd/mm/yyyy
+I0650,format_fixable,date_dmy,STAGING_FIX,accounts,A0002913,,open_date,13/10/2022,2022-10-13,Open date in dd/mm/yyyy
+I0651,format_fixable,date_dmy,STAGING_FIX,accounts,A0003000,,open_date,05/02/2022,2022-02-05,Open date in dd/mm/yyyy
+I0652,format_fixable,date_dmy,STAGING_FIX,accounts,A0000612,,open_date,26/11/2011,2011-11-26,Open date in dd/mm/yyyy
+I0653,format_fixable,date_dmy,STAGING_FIX,accounts,A0002994,,open_date,09/02/2026,2026-02-09,Open date in dd/mm/yyyy
+I0654,format_fixable,date_dmy,STAGING_FIX,accounts,A0000501,,open_date,24/04/2012,2012-04-24,Open date in dd/mm/yyyy
+I0655,format_fixable,date_dmy,STAGING_FIX,accounts,A0000918,,open_date,19/12/2017,2017-12-19,Open date in dd/mm/yyyy
+I0656,format_fixable,date_dmy,STAGING_FIX,accounts,A0002274,,open_date,17/07/2023,2023-07-17,Open date in dd/mm/yyyy
+I0657,format_fixable,date_dmy,STAGING_FIX,accounts,A0002549,,open_date,25/01/2024,2024-01-25,Open date in dd/mm/yyyy
+I0658,format_fixable,date_dmy,STAGING_FIX,accounts,A0000513,,open_date,08/12/2012,2012-12-08,Open date in dd/mm/yyyy
+I0659,format_fixable,date_dmy,STAGING_FIX,accounts,A0002847,,open_date,04/02/2009,2009-02-04,Open date in dd/mm/yyyy
+I0660,format_fixable,date_dmy,STAGING_FIX,accounts,A0002476,,open_date,27/01/2017,2017-01-27,Open date in dd/mm/yyyy
+I0661,format_fixable,date_dmy,STAGING_FIX,accounts,A0002855,,open_date,30/07/2024,2024-07-30,Open date in dd/mm/yyyy
+I0662,format_fixable,date_dmy,STAGING_FIX,accounts,A0000820,,open_date,26/09/2020,2020-09-26,Open date in dd/mm/yyyy
+I0663,format_fixable,date_dmy,STAGING_FIX,accounts,A0001164,,open_date,08/08/2025,2025-08-08,Open date in dd/mm/yyyy
+I0664,format_fixable,date_dmy,STAGING_FIX,accounts,A0002821,,open_date,18/10/2018,2018-10-18,Open date in dd/mm/yyyy
+I0665,format_fixable,date_dmy,STAGING_FIX,accounts,A0002948,,open_date,29/12/2019,2019-12-29,Open date in dd/mm/yyyy
+I0666,format_fixable,date_dmy,STAGING_FIX,accounts,A0001167,,open_date,28/05/2016,2016-05-28,Open date in dd/mm/yyyy
+I0667,format_fixable,date_dmy,STAGING_FIX,accounts,A0001960,,open_date,04/07/2015,2015-07-04,Open date in dd/mm/yyyy
+I0668,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002332,,open_date,8-Jul-2022,2022-07-08,Open date in d-Mon-yyyy
+I0669,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002347,,open_date,15-Mar-2023,2023-03-15,Open date in d-Mon-yyyy
+I0670,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001814,,open_date,8-May-2008,2008-05-08,Open date in d-Mon-yyyy
+I0671,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0000874,,open_date,29-May-2022,2022-05-29,Open date in d-Mon-yyyy
+I0672,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001909,,open_date,16-May-2016,2016-05-16,Open date in d-Mon-yyyy
+I0673,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0000242,,open_date,14-Jun-2010,2010-06-14,Open date in d-Mon-yyyy
+I0674,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0000909,,open_date,19-Feb-2024,2024-02-19,Open date in d-Mon-yyyy
+I0675,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002648,,open_date,10-Oct-2010,2010-10-10,Open date in d-Mon-yyyy
+I0676,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001641,,open_date,20-Apr-2026,2026-04-20,Open date in d-Mon-yyyy
+I0677,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002760,,open_date,11-Aug-2025,2025-08-11,Open date in d-Mon-yyyy
+I0678,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001271,,open_date,26-Apr-2011,2011-04-26,Open date in d-Mon-yyyy
+I0679,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0000749,,open_date,23-Sep-2024,2024-09-23,Open date in d-Mon-yyyy
+I0680,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002525,,open_date,3-Jan-2015,2015-01-03,Open date in d-Mon-yyyy
+I0681,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0000466,,open_date,30-Jan-2019,2019-01-30,Open date in d-Mon-yyyy
+I0682,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001751,,open_date,5-Jun-2023,2023-06-05,Open date in d-Mon-yyyy
+I0683,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001080,,open_date,6-Nov-2022,2022-11-06,Open date in d-Mon-yyyy
+I0684,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002701,,open_date,16-Apr-2019,2019-04-16,Open date in d-Mon-yyyy
+I0685,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0001918,,open_date,26-Mar-2020,2020-03-26,Open date in d-Mon-yyyy
+I0686,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0000152,,open_date,9-Feb-2011,2011-02-09,Open date in d-Mon-yyyy
+I0687,format_fixable,date_d_mon_y,STAGING_FIX,accounts,A0002285,,open_date,30-Sep-2024,2024-09-30,Open date in d-Mon-yyyy
+I0688,format_fixable,id_lower,STAGING_FIX,accounts,A0002946,,customer_id,c001719,C001719,Customer ID in lower case
+I0689,format_fixable,id_lower,STAGING_FIX,accounts,A0001392,,customer_id,c001150,C001150,Customer ID in lower case
+I0690,format_fixable,id_lower,STAGING_FIX,accounts,A0002376,,customer_id,c001390,C001390,Customer ID in lower case
+I0691,format_fixable,id_lower,STAGING_FIX,accounts,A0000974,,customer_id,c000658,C000658,Customer ID in lower case
+I0692,format_fixable,id_lower,STAGING_FIX,accounts,A0000107,,customer_id,c001132,C001132,Customer ID in lower case
+I0693,format_fixable,id_lower,STAGING_FIX,accounts,A0000495,,customer_id,c000005,C000005,Customer ID in lower case
+I0694,format_fixable,id_lower,STAGING_FIX,accounts,A0001949,,customer_id,c000377,C000377,Customer ID in lower case
+I0695,format_fixable,id_lower,STAGING_FIX,accounts,A0002568,,customer_id,c000303,C000303,Customer ID in lower case
+I0696,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0001526,,customer_id,C000179 ,C000179,Customer ID with a trailing space
+I0697,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0000168,,customer_id,C000997 ,C000997,Customer ID with a trailing space
+I0698,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0002981,,customer_id,C000563 ,C000563,Customer ID with a trailing space
+I0699,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0000854,,customer_id,C000788 ,C000788,Customer ID with a trailing space
+I0700,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0000600,,customer_id,C001809 ,C001809,Customer ID with a trailing space
+I0701,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0001720,,customer_id,C000929 ,C000929,Customer ID with a trailing space
+I0702,format_fixable,id_trailing_space,STAGING_FIX,accounts,A0002052,,customer_id,C000887 ,C000887,Customer ID with a trailing space
+I0703,format_fixable,thousands_separator,STAGING_FIX,accounts,A0001623,,balance_ye,"13,578.26",13578.26,Balance written with thousands separators
+I0704,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000521,,balance_ye,"34,706.88",34706.88,Balance written with thousands separators
+I0705,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000406,,balance_ye,"1,485.39",1485.39,Balance written with thousands separators
+I0706,format_fixable,thousands_separator,STAGING_FIX,accounts,A0002142,,balance_ye,"8,043.44",8043.44,Balance written with thousands separators
+I0707,format_fixable,thousands_separator,STAGING_FIX,accounts,A0002294,,balance_ye,"30,064.84",30064.84,Balance written with thousands separators
+I0708,format_fixable,thousands_separator,STAGING_FIX,accounts,A0001705,,balance_ye,"10,488.39",10488.39,Balance written with thousands separators
+I0709,format_fixable,thousands_separator,STAGING_FIX,accounts,A0001537,,balance_ye,"6,597.91",6597.91,Balance written with thousands separators
+I0710,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000744,,balance_ye,"1,613.04",1613.04,Balance written with thousands separators
+I0711,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000507,,balance_ye,"26,228.36",26228.36,Balance written with thousands separators
+I0712,format_fixable,thousands_separator,STAGING_FIX,accounts,A0001657,,balance_ye,"11,998.42",11998.42,Balance written with thousands separators
+I0713,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000763,,balance_ye,"75,261.61",75261.61,Balance written with thousands separators
+I0714,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000399,,balance_ye,"29,991.86",29991.86,Balance written with thousands separators
+I0715,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000291,,balance_ye,"7,185.16",7185.16,Balance written with thousands separators
+I0716,format_fixable,thousands_separator,STAGING_FIX,accounts,A0000936,,balance_ye,"27,467.88",27467.88,Balance written with thousands separators
+I0717,format_fixable,thousands_separator,STAGING_FIX,accounts,A0002624,,balance_ye,"63,995.25",63995.25,Balance written with thousands separators
+I0718,format_fixable,country_name,STAGING_FIX,self_certification,C001933,,tax_residency_1,India,IN,Tax residency written as an English name
+I0719,format_fixable,country_name,STAGING_FIX,self_certification,C000115,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0720,format_fixable,country_name,STAGING_FIX,self_certification,C001565,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0721,format_fixable,country_name,STAGING_FIX,self_certification,C001098,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0722,format_fixable,country_name,STAGING_FIX,self_certification,C000205,,tax_residency_1,India,IN,Tax residency written as an English name
+I0723,format_fixable,country_name,STAGING_FIX,self_certification,C000708,,tax_residency_1,India,IN,Tax residency written as an English name
+I0724,format_fixable,country_name,STAGING_FIX,self_certification,C001847,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0725,format_fixable,country_name,STAGING_FIX,self_certification,C000048,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0726,format_fixable,country_name,STAGING_FIX,self_certification,C000664,,tax_residency_1,France,FR,Tax residency written as an English name
+I0727,format_fixable,country_name,STAGING_FIX,self_certification,C001712,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0728,format_fixable,country_name,STAGING_FIX,self_certification,C001731,,tax_residency_1,France,FR,Tax residency written as an English name
+I0729,format_fixable,country_name,STAGING_FIX,self_certification,C001495,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0730,format_fixable,country_name,STAGING_FIX,self_certification,C000925,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0731,format_fixable,country_name,STAGING_FIX,self_certification,C000842,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0732,format_fixable,country_name,STAGING_FIX,self_certification,C000136,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0733,format_fixable,country_name,STAGING_FIX,self_certification,C000803,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0734,format_fixable,country_name,STAGING_FIX,self_certification,C001388,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0735,format_fixable,country_name,STAGING_FIX,self_certification,C001683,,tax_residency_1,New Zealand,NZ,Tax residency written as an English name
+I0736,format_fixable,country_name,STAGING_FIX,self_certification,C000843,,tax_residency_1,United Kingdom,GB,Tax residency written as an English name
+I0737,format_fixable,country_name,STAGING_FIX,self_certification,C001314,,tax_residency_1,Australia,AU,Tax residency written as an English name
+I0738,format_fixable,country_iso3,STAGING_FIX,self_certification,C000601,,tax_residency_1,NZL,NZ,Tax residency as an ISO alpha-3 code
+I0739,format_fixable,country_iso3,STAGING_FIX,self_certification,C001567,,tax_residency_1,AUS,AU,Tax residency as an ISO alpha-3 code
+I0740,format_fixable,country_iso3,STAGING_FIX,self_certification,C000752,,tax_residency_1,AUS,AU,Tax residency as an ISO alpha-3 code
+I0741,format_fixable,country_iso3,STAGING_FIX,self_certification,C001287,,tax_residency_1,FRA,FR,Tax residency as an ISO alpha-3 code
+I0742,format_fixable,country_iso3,STAGING_FIX,self_certification,C001494,,tax_residency_1,USA,US,Tax residency as an ISO alpha-3 code
+I0743,format_fixable,country_iso3,STAGING_FIX,self_certification,C001953,,tax_residency_1,AUS,AU,Tax residency as an ISO alpha-3 code
+I0744,format_fixable,country_iso3,STAGING_FIX,self_certification,C000037,,tax_residency_1,AUS,AU,Tax residency as an ISO alpha-3 code
+I0745,format_fixable,country_iso3,STAGING_FIX,self_certification,C000446,,tax_residency_1,AUS,AU,Tax residency as an ISO alpha-3 code
+I0746,format_fixable,country_iso3,STAGING_FIX,self_certification,C000533,,tax_residency_1,IND,IN,Tax residency as an ISO alpha-3 code
+I0747,format_fixable,country_iso3,STAGING_FIX,self_certification,C000692,,tax_residency_1,AUS,AU,Tax residency as an ISO alpha-3 code
+I0748,format_fixable,country_lower,STAGING_FIX,self_certification,C000111,,tax_residency_1,in,IN,Tax residency code in lower case
+I0749,format_fixable,country_lower,STAGING_FIX,self_certification,C000314,,tax_residency_1,au,AU,Tax residency code in lower case
+I0750,format_fixable,country_lower,STAGING_FIX,self_certification,C001095,,tax_residency_1,au,AU,Tax residency code in lower case
+I0751,format_fixable,country_lower,STAGING_FIX,self_certification,C000588,,tax_residency_1,au,AU,Tax residency code in lower case
+I0752,format_fixable,country_lower,STAGING_FIX,self_certification,C001627,,tax_residency_1,au,AU,Tax residency code in lower case
+I0753,format_fixable,country_lower,STAGING_FIX,self_certification,C000915,,tax_residency_1,au,AU,Tax residency code in lower case
+I0754,format_fixable,country_lower,STAGING_FIX,self_certification,C000455,,tax_residency_1,gb,GB,Tax residency code in lower case
+I0755,format_fixable,country_lower,STAGING_FIX,self_certification,C000647,,tax_residency_1,us,US,Tax residency code in lower case
+I0756,format_fixable,country_lower,STAGING_FIX,self_certification,C000263,,tax_residency_1,gb,GB,Tax residency code in lower case
+I0757,format_fixable,country_lower,STAGING_FIX,self_certification,C001635,,tax_residency_1,au,AU,Tax residency code in lower case
+I0758,format_fixable,date_dmy,STAGING_FIX,self_certification,C000442,,date_signed,09/09/2021,2021-09-09,Date signed in dd/mm/yyyy
+I0759,format_fixable,date_dmy,STAGING_FIX,self_certification,C000187,,date_signed,05/01/2023,2023-01-05,Date signed in dd/mm/yyyy
+I0760,format_fixable,date_dmy,STAGING_FIX,self_certification,C000245,,date_signed,20/06/2022,2022-06-20,Date signed in dd/mm/yyyy
+I0761,format_fixable,date_dmy,STAGING_FIX,self_certification,C000860,,date_signed,06/08/2024,2024-08-06,Date signed in dd/mm/yyyy
+I0762,format_fixable,date_dmy,STAGING_FIX,self_certification,C000615,,date_signed,29/06/2018,2018-06-29,Date signed in dd/mm/yyyy
+I0763,format_fixable,date_dmy,STAGING_FIX,self_certification,C001096,,date_signed,22/09/2023,2023-09-22,Date signed in dd/mm/yyyy
+I0764,format_fixable,date_dmy,STAGING_FIX,self_certification,C000026,,date_signed,16/11/2017,2017-11-16,Date signed in dd/mm/yyyy
+I0765,format_fixable,date_dmy,STAGING_FIX,self_certification,C000012,,date_signed,14/02/2026,2026-02-14,Date signed in dd/mm/yyyy
+I0766,format_fixable,date_dmy,STAGING_FIX,self_certification,C001842,,date_signed,20/05/2025,2025-05-20,Date signed in dd/mm/yyyy
+I0767,format_fixable,date_dmy,STAGING_FIX,self_certification,C001844,,date_signed,21/07/2025,2025-07-21,Date signed in dd/mm/yyyy
+I0768,format_fixable,date_dmy,STAGING_FIX,self_certification,C000958,,date_signed,08/01/2026,2026-01-08,Date signed in dd/mm/yyyy
+I0769,format_fixable,date_dmy,STAGING_FIX,self_certification,C001696,,date_signed,28/09/2021,2021-09-28,Date signed in dd/mm/yyyy
+I0770,format_fixable,date_dmy,STAGING_FIX,self_certification,C000907,,date_signed,11/04/2026,2026-04-11,Date signed in dd/mm/yyyy
+I0771,format_fixable,date_dmy,STAGING_FIX,self_certification,C000265,,date_signed,24/10/2017,2017-10-24,Date signed in dd/mm/yyyy
+I0772,format_fixable,date_dmy,STAGING_FIX,self_certification,C000169,,date_signed,05/01/2022,2022-01-05,Date signed in dd/mm/yyyy
+I0773,format_fixable,date_dmy,STAGING_FIX,self_certification,C000812,,date_signed,10/10/2025,2025-10-10,Date signed in dd/mm/yyyy
+I0774,format_fixable,date_dmy,STAGING_FIX,self_certification,C001655,,date_signed,27/09/2025,2025-09-27,Date signed in dd/mm/yyyy
+I0775,format_fixable,date_dmy,STAGING_FIX,self_certification,C001058,,date_signed,15/08/2024,2024-08-15,Date signed in dd/mm/yyyy
+I0776,format_fixable,date_dmy,STAGING_FIX,self_certification,C001269,,date_signed,13/06/2026,2026-06-13,Date signed in dd/mm/yyyy
+I0777,format_fixable,date_dmy,STAGING_FIX,self_certification,C001038,,date_signed,24/12/2023,2023-12-24,Date signed in dd/mm/yyyy
+I0778,format_fixable,date_dmy,STAGING_FIX,self_certification,C000941,,date_signed,08/04/2026,2026-04-08,Date signed in dd/mm/yyyy
+I0779,format_fixable,date_dmy,STAGING_FIX,self_certification,C000534,,date_signed,06/10/2022,2022-10-06,Date signed in dd/mm/yyyy
+I0780,format_fixable,date_dmy,STAGING_FIX,self_certification,C001878,,date_signed,24/07/2019,2019-07-24,Date signed in dd/mm/yyyy
+I0781,format_fixable,date_dmy,STAGING_FIX,self_certification,C001380,,date_signed,09/09/2023,2023-09-09,Date signed in dd/mm/yyyy
+I0782,format_fixable,date_dmy,STAGING_FIX,self_certification,C001286,,date_signed,03/02/2019,2019-02-03,Date signed in dd/mm/yyyy
+I0783,format_fixable,date_dmy,STAGING_FIX,self_certification,C001649,,date_signed,28/11/2021,2021-11-28,Date signed in dd/mm/yyyy
+I0784,format_fixable,date_dmy,STAGING_FIX,self_certification,C001600,,date_signed,21/02/2026,2026-02-21,Date signed in dd/mm/yyyy
+I0785,format_fixable,date_dmy,STAGING_FIX,self_certification,C000462,,date_signed,08/09/2020,2020-09-08,Date signed in dd/mm/yyyy
+I0786,format_fixable,date_dmy,STAGING_FIX,self_certification,C001633,,date_signed,28/01/2019,2019-01-28,Date signed in dd/mm/yyyy
+I0787,format_fixable,date_dmy,STAGING_FIX,self_certification,C000596,,date_signed,05/06/2020,2020-06-05,Date signed in dd/mm/yyyy
+I0788,format_fixable,tin_lower,STAGING_FIX,self_certification,C001936,,tin_1,au-fake-238247911,AU-FAKE-238247911,TIN in lower case
+I0789,format_fixable,tin_lower,STAGING_FIX,self_certification,C001084,,tin_1,nz-fake-26654428,NZ-FAKE-26654428,TIN in lower case
+I0790,format_fixable,tin_lower,STAGING_FIX,self_certification,C001582,,tin_1,au-fake-610749401,AU-FAKE-610749401,TIN in lower case
+I0791,format_fixable,tin_lower,STAGING_FIX,self_certification,C000452,,tin_1,au-fake-018754320,AU-FAKE-018754320,TIN in lower case
+I0792,format_fixable,tin_lower,STAGING_FIX,self_certification,C000224,,tin_1,au-fake-032325269,AU-FAKE-032325269,TIN in lower case
+I0793,format_fixable,tin_outer_space,STAGING_FIX,self_certification,C000458,,tin_1, AU-FAKE-688757989 ,AU-FAKE-688757989,TIN with leading and trailing spaces
+I0794,format_fixable,tin_outer_space,STAGING_FIX,self_certification,C001960,,tin_1, GB-FAKE-6239011981 ,GB-FAKE-6239011981,TIN with leading and trailing spaces
+I0795,format_fixable,tin_outer_space,STAGING_FIX,self_certification,C000372,,tin_1, AU-FAKE-756058703 ,AU-FAKE-756058703,TIN with leading and trailing spaces
+I0796,format_fixable,tin_outer_space,STAGING_FIX,self_certification,C001869,,tin_1, AU-FAKE-358943106 ,AU-FAKE-358943106,TIN with leading and trailing spaces
+I0797,format_fixable,tin_outer_space,STAGING_FIX,self_certification,C000145,,tin_1, AU-FAKE-002031568 ,AU-FAKE-002031568,TIN with leading and trailing spaces
+I0798,format_fixable,tin_inner_space,STAGING_FIX,self_certification,C000028,,tin_1,NZ-FAKE-12 836 369,NZ-FAKE-12836369,TIN digits split by spaces
+I0799,format_fixable,tin_inner_space,STAGING_FIX,self_certification,C000937,,tin_1,AU-FAKE-835 922 364,AU-FAKE-835922364,TIN digits split by spaces
+I0800,format_fixable,tin_inner_space,STAGING_FIX,self_certification,C000479,,tin_1,AU-FAKE-306 026 634,AU-FAKE-306026634,TIN digits split by spaces
+I0801,format_fixable,tin_inner_space,STAGING_FIX,self_certification,C001587,,tin_1,AU-FAKE-743 320 514,AU-FAKE-743320514,TIN digits split by spaces
+I0802,format_fixable,tin_inner_space,STAGING_FIX,self_certification,C001189,,tin_1,AU-FAKE-267 499 476,AU-FAKE-267499476,TIN digits split by spaces
+I0803,format_fixable,flag_variant,STAGING_FIX,self_certification,C001733,,us_person,n,N,US person flag written in another form
+I0804,format_fixable,flag_variant,STAGING_FIX,self_certification,C001649,,us_person,n,N,US person flag written in another form
+I0805,format_fixable,flag_variant,STAGING_FIX,self_certification,C000977,,us_person,No,N,US person flag written in another form
+I0806,format_fixable,flag_variant,STAGING_FIX,self_certification,C000062,,us_person,NO,N,US person flag written in another form
+I0807,format_fixable,flag_variant,STAGING_FIX,self_certification,C000296,,us_person,No,N,US person flag written in another form
+I0808,format_fixable,flag_variant,STAGING_FIX,self_certification,C001893,,us_person,NO,N,US person flag written in another form
+I0809,format_fixable,flag_variant,STAGING_FIX,self_certification,C000627,,us_person,n,N,US person flag written in another form
+I0810,format_fixable,flag_variant,STAGING_FIX,self_certification,C001466,,us_person,n,N,US person flag written in another form
+I0811,format_fixable,flag_variant,STAGING_FIX,self_certification,C000481,,us_person,N ,N,US person flag written in another form
+I0812,format_fixable,flag_variant,STAGING_FIX,self_certification,C000139,,us_person,n,N,US person flag written in another form
+I0813,format_fixable,flag_variant,STAGING_FIX,self_certification,C001514,,us_person,No,N,US person flag written in another form
+I0814,format_fixable,flag_variant,STAGING_FIX,self_certification,C001585,,us_person,N ,N,US person flag written in another form
+I0815,format_fixable,flag_variant,STAGING_FIX,self_certification,C000152,,us_person,N ,N,US person flag written in another form
+I0816,format_fixable,flag_variant,STAGING_FIX,self_certification,C000041,,us_person,N ,N,US person flag written in another form
+I0817,format_fixable,flag_variant,STAGING_FIX,self_certification,C000612,,us_person,y,Y,US person flag written in another form
+I0818,format_fixable,flag_variant,STAGING_FIX,self_certification,C000012,,us_person,NO,N,US person flag written in another form
+I0819,format_fixable,flag_variant,STAGING_FIX,self_certification,C000555,,us_person,No,N,US person flag written in another form
+I0820,format_fixable,flag_variant,STAGING_FIX,self_certification,C000834,,us_person,n,N,US person flag written in another form
+I0821,format_fixable,flag_variant,STAGING_FIX,self_certification,C000197,,us_person,n,N,US person flag written in another form
+I0822,format_fixable,flag_variant,STAGING_FIX,self_certification,C000339,,us_person,NO,N,US person flag written in another form

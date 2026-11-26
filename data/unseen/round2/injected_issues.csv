@@ -1,0 +1,34 @@
+issue_id,issue_type,sub_type,expected_rule,source_system,record_key,related_key,field,injected_value,clean_value,description
+I0001,duplicate_customer,nickname,R01,customer_master,C700002,C700001,customer_id,Bill Acevedo,,Nickname Bill for William
+I0002,duplicate_customer,middle_name_added,R01,customer_master,C700004,C700003,customer_id,Brian Sally White,,Middle name added
+I0003,duplicate_customer,surname_comma_first,R01,customer_master,C700006,C700005,customer_id,"HERNANDEZ, Edward",,"Written 'SURNAME, First'"
+I0004,duplicate_customer,day_month_swapped,R01,customer_master,C700008,C700007,customer_id,1976-11-03,,Day and month of birth swapped
+I0005,duplicate_customer,space_in_surname,R01,customer_master,C700010,C700009,customer_id,Sarah Mc Allister,,Space inside the surname
+I0006,missing_tin,new_placeholder_r2,R02,self_certification,C700011,,tin_1,Not provided,,Placeholder 'Not provided' instead of a TIN
+I0007,missing_tin,new_placeholder_r2,R02,self_certification,C700012,,tin_1,?,,Placeholder '?' instead of a TIN
+I0008,missing_tin,new_placeholder_r2,R02,self_certification,C700013,,tin_1,999999999,,Placeholder '999999999' instead of a TIN
+I0009,malformed_tin,prefix_order_swapped,R03,self_certification,C700014,,tin_1,FAKE-AU-959251442,,TIN in an unexpected shape
+I0010,malformed_tin,en_dash_separators,R03,self_certification,C700015,,tin_1,AU–FAKE–412733820,,TIN in an unexpected shape
+I0011,malformed_tin,doubled_country_prefix,R03,self_certification,C700016,,tin_1,AU-AU-FAKE-446174112,,TIN in an unexpected shape
+I0012,residence_selfcert_mismatch,country_outside_reference,R04,self_certification,C700017,,tax_residency_1,AT,,"Residence DE, declared Austria (not in the reference list)"
+I0013,residence_selfcert_mismatch,alias_residence,R04,customer_master,C700018,,country_of_residence,Great Britain,,"Residence written 'Great Britain', declared IE"
+I0014,format_fixable,country_alias_great_britain,STAGING_FIX,customer_master,C700018,,country_of_residence,Great Britain,GB,Country written Great Britain
+I0015,us_indicia_no_declaration,mailing_trailing_full_stop,R05,customer_master,C700019,,mailing_address,"3396 Green Hill Apt. 516, North Laura, MN 76310, United States.",,US mailing address ending 'United States.'
+I0016,us_indicia_no_declaration,phone_bracketed_plus,R05,customer_master,C700020,,phone_numbers,+61 468 862 850; (+1) 531 555 0159,,US phone written (+1) ...
+I0017,us_indicia_no_declaration,nationality_word,R05,customer_master,C700021,,nationality,American,,Nationality written 'American'
+I0018,us_indicia_no_declaration,birthplace_state_code,R05,customer_master,C700022,,place_of_birth,"Chicago, IL",,US place of birth as city and state code
+I0019,us_indicia_no_declaration,residence_address_only,R05,customer_master,C700023,,residence_address,"5002 Anna Lodge, New Kevin, IN 95557, USA",,US residence address while the residence field still says AU
+I0020,orphan_account,foreign_id_format,R06,accounts,A7000024,CUST700099,customer_id,CUST700099,,Customer ID in another system's format
+I0021,format_unfixable,id_format,R09,accounts,A7000024,,customer_id,CUST700099,,Customer ID is not in the C + 6 digits form
+I0022,orphan_account,id_digit_typo,R06,accounts,A7000025,C790024,customer_id,C790024,,Customer ID keyed with a wrong digit
+I0023,customer_no_account,account_keyed_to_wrong_id,R07,customer_master,C700024,,customer_id,C700024,,Only account was keyed to a wrong customer ID
+I0024,selfcert_out_of_date,far_future_sentinel,R08,self_certification,C700025,,date_signed,9999-12-31,,Signature date 9999-12-31
+I0025,selfcert_out_of_date,year_one_sentinel,R08,self_certification,C700026,,date_signed,0001-01-01,,Signature date 0001-01-01
+I0026,selfcert_out_of_date,impossible_date,R08,self_certification,C700027,,date_signed,2026-02-30,,Signature date 2026-02-30
+I0027,format_unfixable,invalid_date,R09,self_certification,C700027,,date_signed,2026-02-30,,Signature date is not a valid date
+I0028,format_fixable,currency_word,STAGING_FIX,accounts,A7000029,,currency,Australian dollar,AUD,Currency written as a word
+I0029,format_fixable,country_long_name,STAGING_FIX,customer_master,C700029,,country_of_residence,Republic of Ireland,IE,Long country name
+I0030,format_fixable,date_unpadded,STAGING_FIX,customer_master,C700030,,date_of_birth,1947-3-5,1947-03-05,ISO date without zero padding
+I0031,format_fixable,status_synonym,STAGING_FIX,accounts,A7000032,,status,Active,Open,Status written 'Active'
+I0032,format_unfixable,balance_european_decimal,R09,accounts,A7000033,,balance_ye,"12.345,67",,Balance with European separators is ambiguous
+I0033,format_unfixable,currency_pair,R09,accounts,A7000034,,currency,AUD/USD,,Two currencies in one field

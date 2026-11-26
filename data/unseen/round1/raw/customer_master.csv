@@ -1,0 +1,42 @@
+customer_id,full_name,date_of_birth,residence_address,mailing_address,country_of_residence,phone_numbers,place_of_birth,nationality
+C800001,Kathryn Alvarez,1977-04-17,"966 Hill Quadrant, Johnsonfort, NT, 2639, Australia","966 Hill Quadrant, Johnsonfort, NT, 2639, Australia",AU,+61 425 123 937,"West Williamburgh, Australia",AU
+C800002,Alvarez Kathryn,1977-04-17,"966 Hill Quadrant, Johnsonfort, NT, 2639, Australia","966 Hill Quadrant, Johnsonfort, NT, 2639, Australia",AU,+61 425 123 937,"West Williamburgh, Australia",AU
+C800003,Samantha Ware,1942-02-08,"98 Adams Bypass, Scottburgh, SA, 2914, Australia","98 Adams Bypass, Scottburgh, SA, 2914, Australia",AU,+61 426 808 617,"Serranomouth, Australia",AU
+C800004,Samantha Ware,1942/02/08,"98 Adams Bypass, Scottburgh, SA, 2914, Australia","98 Adams Bypass, Scottburgh, SA, 2914, Australia",AU,+61 426 808 617,"Serranomouth, Australia",AU
+C800005,Donna Rodriguez-Bartlett,1949-12-24,"Unit 46 36 Sanchez Mews, Port Danafort, QLD, 2905, Australia","Unit 46 36 Sanchez Mews, Port Danafort, QLD, 2905, Australia",AU,+61 422 563 357,"North Anthony, Australia",AU
+C800006,Donna Rodriguez Bartlett,1949-12-24,"Unit 46 36 Sanchez Mews, Port Danafort, QLD, 2905, Australia","Unit 46 36 Sanchez Mews, Port Danafort, QLD, 2905, Australia",AU,+61 422 563 357,"North Anthony, Australia",AU
+C800007,Lisa Leach,1964-07-08,"8 James Reach, Powellfort, NSW, 2619, Australia","8 James Reach, Powellfort, NSW, 2619, Australia",AU,+61 422 149 470,"Vincentton, Australia",AU
+C800008,L. Leach,1964-07-08,"8 James Reach, Powellfort, NSW, 2619, Australia","8 James Reach, Powellfort, NSW, 2619, Australia",AU,+61 422 149 470,"Vincentton, Australia",AU
+C800009,Dustin Underwood,1960-04-20,"1 Jeremy Round, Lake Stephanieshire, WA, 2066, Australia","1 Jeremy Round, Lake Stephanieshire, WA, 2066, Australia",AU,+61 473 554 637,"Pukeara, New Zealand",NZ
+C800010,Dustin Udnerwoodd,1960-04-20,"1 Jeremy Round, Lake Stephanieshire, WA, 2066, Australia","1 Jeremy Round, Lake Stephanieshire, WA, 2066, Australia",AU,+61 473 554 637,"Pukeara, New Zealand",NZ
+C800011,Harold Hebert,1984-10-25,"1 Knight Gardens, Johnsontown, SA, 6161, Australia","1 Knight Gardens, Johnsontown, SA, 6161, Australia",AU,+61 485 814 738,"West Christopher, Australia",AU
+C800012,Taylor Parrish,1942-01-08,"84 Heather Byway, Bairdville, ACT, 2693, Australia","84 Heather Byway, Bairdville, ACT, 2693, Australia",AU,+61 417 209 608,"Buckview, Australia",AU
+C800013,Isaiah Olson,1942-12-28,"Flat 83 1 Stephen Dale, Lake Jason, TAS, 1943, Australia","Flat 83 1 Stephen Dale, Lake Jason, TAS, 1943, Australia",AU,+61 417 656 083,"Lake Patricia, Australia",AU
+C800014,Matthew Bailey,1941-05-29,"807 Shannon Alleyway, Rodneyside, ACT, 2903, Australia","807 Shannon Alleyway, Rodneyside, ACT, 2903, Australia",AU,+61 424 741 525,"Valeriechester, Australia",AU
+C800015,Riley Hardin,1946-02-14,"Flat 92 77 Hancock Glade, Gibsonport, NSW, 2647, Australia","Flat 92 77 Hancock Glade, Gibsonport, NSW, 2647, Australia",AU,+61 435 567 914,"Teresaton, Australia",AU
+C800016,Ricardo Fisher,1997-10-02,"573 Hill Mew, Wilsonville, SA, 2048, Australia","573 Hill Mew, Wilsonville, SA, 2048, Australia",AU,+61 466 594 109,"Jeanneport, Australia",AU
+C800017,Lauren Henderson,1967-05-10,"Unit 87 1 Randall Alley, North Victorborough, TAS, 2682, Australia","Unit 87 1 Randall Alley, North Victorborough, TAS, 2682, Australia",AU,+61 485 798 303,"South Tamaraburgh, Australia",AU
+C800018,Renee Adams,1957-10-27,"Level 8 81 Castillo Promenade, Brownville, NT, 0855, Australia","Level 8 81 Castillo Promenade, Brownville, NT, 0855, Australia",AU,+61 415 002 651,"Michaelville, New Zealand",NZ
+C800019,Gabriella Ellis,1993-06-12,"28 Mayer Crest, Katherineville, VIC, 2693, Australia","28 Mayer Crest, Katherineville, VIC, 2693, Australia",AU,+61 430 929 982,"St. Janeton, Australia",AU
+C800020,Molly Mckay,1954-02-06,"7 Erin Beach, Brownshire, VIC, 2619, Australia","31179 Justin Stravenue Suite 308, Danielsberg, MO 13870, US",AU,+61 469 093 555,"St. Melaniemouth, Australia",AU
+C800021,Breanna Garcia,1971-07-22,"92 Jenkins Pocket, Fischermouth, TAS, 0880, Australia","995 Reyes Island Apt. 600, New Samuelport, OR 85542, U.S.",AU,+61 458 249 785,"North Josephview, Australia",AU
+C800022,Jessica Garcia,1996-02-25,"72 Sarah Trail, St. Sandrafurt, TAS, 2600, Australia","Apt. 432 8 Guerrero Quays, Amandaberg, ACT, 2929, Australia",AU,+61 456 950 019; 001 457 555 0182,"New Jonathan, Australia",AU
+C800023,Krystal Rios,1941-11-09,"Level 0 702 Little Pathway, Jenniferstad, NT, 2959, Australia","Level 0 702 Little Pathway, Jenniferstad, NT, 2959, Australia",AU,+61 467 908 191; +1-855-555-0106,"Sandraport, Australia",AU
+C800024,Ian Murphy,1970-06-05,"Apt. 517 0 Andrew Riverway, Lake Ashleyton, NSW, 2221, Australia","Apt. 517 0 Andrew Riverway, Lake Ashleyton, NSW, 2221, Australia",AU,+61 430 169 511,"Boston, Massachusetts",AU
+C800025,Logan Holt,1987-04-23,"679/400 Carter Crossing, Kurtton, WA, 2999, Australia","679/400 Carter Crossing, Kurtton, WA, 2999, Australia",AU,+61 440 466 269,"South Matthew, Australia",AU
+C800026,Brenda Hall,2000-07-01,"Flat 49 76 Myers State Highway, Hannahview, NSW, 2091, Australia","Flat 49 76 Myers State Highway, Hannahview, NSW, 2091, Australia",AU,+61 459 876 368,"Port Sheenaton, Australia",AU
+C800027,Pamela Campbell,1982-08-14,"Apt. 202 0 Kevin Plaza, Port Jaimechester, SA, 2607, Australia","Apt. 202 0 Kevin Plaza, Port Jaimechester, SA, 2607, Australia",AU,+61 460 033 768,"Travisside, Australia",AU
+C800028,Brandi Sanchez,1998-12-27,"950 Chavez Row, St. Benjamin, WA, 5380, Australia","31 Karen Causeway, Jennifershire, SA, 2939, Australia",AU,+61 486 063 732,"Freethport, New Zealand",NZ
+C800029,Melinda Davis,27.06.1997,"921 Jones Junction, East Kaitlintown, ACT, 2656, Australia","921 Jones Junction, East Kaitlintown, ACT, 2656, Australia",AU,+61 421 437 928,"Nanded, India",IN
+C800030,Lisa Rosario,"August 27, 1940","Apt. 136 1 Amanda Crossing, Vargasview, NT, 2974, Australia","Apt. 136 1 Amanda Crossing, Vargasview, NT, 2974, Australia",AU,+61 449 782 547,"Elaineport, Australia",AU
+C800031,Reece Clayton,2001-01-06,"Flat 36Z, Roberts Isle, Joneschester, LA91 5QD, United Kingdom","Flat 36Z, Roberts Isle, Joneschester, LA91 5QD, United Kingdom",U.K.,+44 7546 709375,"Anand, India",IN
+C800032,Amanda Ball,1963-09-06,"635 Papapamaunga Road, East Laurensonside 4071, New Zealand","57 O'Brien Street, Laingstone 6084, New Zealand",Aotearoa,+64 29 850 5497,"Howellbury, New Zealand",NZ
+C800033,David Crosby,1982-03-29,"Unit 55 43 Fuentes Vista, St. Calvinmouth, VIC, 8977, Australia","Unit 55 43 Fuentes Vista, St. Calvinmouth, VIC, 8977, Australia",AU,+61 427 908 041,"North Christine, Australia",AU
+C800034,Sarah Herrera,1980-04-05,"020 Martin Piazza, Amyville, QLD, 9167, Australia","020 Martin Piazza, Amyville, QLD, 9167, Australia",AU,+61 425 702 453,"Erichaven, Australia",AU
+C800035,Maria Wood,1979-10-11,"385 Logan Dale, West Jessica, ACT, 6355, Australia","385 Logan Dale, West Jessica, ACT, 6355, Australia",AU,+61 433 250 099,"Adamview, Australia",AU
+C800036,Vincent Harrison,1987-11-02,"4/3 Price Villas, South Carolynmouth, SA, 2615, Australia","4/3 Price Villas, South Carolynmouth, SA, 2615, Australia",AU,+61 462 293 658,"Salazarfurt, Australia",AU
+C800037,Amanda Carter,1954-06-19,"5 Peters Courtyard, Carriehaven, TAS, 2619, Australia","5 Peters Courtyard, Carriehaven, TAS, 2619, Australia",AU,+61 467 720 137,"West Dylan, Australia",AU
+C800038,Lynette McIntosh,1962-12-26,"9 Awarotopuke Line, RD 6, Wells Flats 5844, New Zealand","9 Awarotopuke Line, RD 6, Wells Flats 5844, New Zealand",NZ,+64 22 538 4624,"Rotoroa, New Zealand",NZ
+C800039,Ashley Brookes,1954-10-05,"25 Wayne Courts, Robertsonberg, M33 4XG, United Kingdom","25 Wayne Courts, Robertsonberg, M33 4XG, United Kingdom",GB,+44 7007 749687,"South Gregoryburgh, United Kingdom",GB
+C800040,Jennifer Ellis,1941-08-18,"60 Jones Tarn, Debramouth, WA, 9181, Australia","60 Jones Tarn, Debramouth, WA, 9181, Australia",AU,+61 458 560 511,"Hazaribagh, India",IN
+C800041,Jennifea Ellis,1941-08-18,"60 Jones Tarn, Debramouth, WA, 9181, Australia","60 Jones Tarn, Debramouth, WA, 9181, Australia",AU,+61 421 340 618,"New Samantha, Australia",AU

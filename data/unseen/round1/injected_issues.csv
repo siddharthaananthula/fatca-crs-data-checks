@@ -1,0 +1,36 @@
+issue_id,issue_type,sub_type,expected_rule,source_system,record_key,related_key,field,injected_value,clean_value,description
+I0001,duplicate_customer,name_order_swapped,R01,customer_master,C800002,C800001,customer_id,Alvarez Kathryn,,Surname written first
+I0002,duplicate_customer,dob_yyyy_slash,R01,customer_master,C800004,C800003,customer_id,1942/02/08,,Date of birth written yyyy/mm/dd
+I0003,format_fixable,date_yyyy_slash,STAGING_FIX,customer_master,C800004,,date_of_birth,1942/02/08,1942-02-08,Date of birth in yyyy/mm/dd
+I0004,duplicate_customer,hyphen_vs_space,R01,customer_master,C800006,C800005,customer_id,Donna Rodriguez Bartlett,,Double surname without the hyphen
+I0005,duplicate_customer,first_initial,R01,customer_master,C800008,C800007,customer_id,L. Leach,,First name reduced to an initial
+I0006,duplicate_customer,two_edits,R01,customer_master,C800010,C800009,customer_id,Dustin Udnerwoodd,,Surname with two keying errors
+I0007,missing_tin,new_placeholder,R02,self_certification,C800011,,tin_1,NOT APPLICABLE,,Placeholder 'NOT APPLICABLE' instead of a TIN
+I0008,missing_tin,new_placeholder,R02,self_certification,C800012,,tin_1,TBA,,Placeholder 'TBA' instead of a TIN
+I0009,missing_tin,new_placeholder,R02,self_certification,C800013,,tin_1,XXXXXXXXX,,Placeholder 'XXXXXXXXX' instead of a TIN
+I0010,missing_tin,new_placeholder,R02,self_certification,C800014,,tin_1,n.a.,,Placeholder 'n.a.' instead of a TIN
+I0011,malformed_tin,missing_hyphens,R03,self_certification,C800015,,tin_1,AUFAKE407695335,,TIN without hyphens
+I0012,malformed_tin,trailing_check_letter,R03,self_certification,C800016,,tin_1,AU-FAKE-807020280X,,TIN with an extra trailing letter
+I0013,malformed_tin,numeric_suffix,R03,self_certification,C800017,,tin_1,AU-FAKE-938022531-01,,TIN with a numeric suffix
+I0014,residence_selfcert_mismatch,two_residencies_neither_match,R04,self_certification,C800018,,tax_residency_1,NZ;GB,,"Residence AU, declared NZ and GB"
+I0015,residence_selfcert_mismatch,alpha3_declared,R04,self_certification,C800019,,tax_residency_1,NZL,,"Residence AU, declared NZ written as NZL"
+I0016,format_fixable,country_iso3,STAGING_FIX,self_certification,C800019,,tax_residency_1,NZL,NZ,Tax residency as alpha-3
+I0017,us_indicia_no_declaration,mailing_country_code_US,R05,customer_master,C800020,,mailing_address,"31179 Justin Stravenue Suite 308, Danielsberg, MO 13870, US",,US mailing address ending in 'US'
+I0018,us_indicia_no_declaration,mailing_country_U.S.,R05,customer_master,C800021,,mailing_address,"995 Reyes Island Apt. 600, New Samuelport, OR 85542, U.S.",,US mailing address ending in 'U.S.'
+I0019,us_indicia_no_declaration,phone_00_prefix,R05,customer_master,C800022,,phone_numbers,+61 456 950 019; 001 457 555 0182,,US phone written with the 001 international prefix
+I0020,us_indicia_no_declaration,phone_dashes,R05,customer_master,C800023,,phone_numbers,+61 467 908 191; +1-855-555-0106,,US phone written +1-xxx-xxx-xxxx
+I0021,us_indicia_no_declaration,birthplace_state_only,R05,customer_master,C800024,,place_of_birth,"Boston, Massachusetts",,"US place of birth given as city and state, no country"
+I0022,orphan_account,unknown_id,R06,accounts,A8000025,C899999,customer_id,C899999,,Account for a customer not in the master
+I0023,orphan_account,letter_o_in_id,R06,accounts,A8000026,C8O0099,customer_id,C8O0099,,Customer ID keyed with letter O
+I0024,format_unfixable,id_letter_o,R09,accounts,A8000026,,customer_id,C8O0099,,Customer ID is not in the C + 6 digits form
+I0025,customer_no_account,,R07,customer_master,C800025,,customer_id,C800025,,Customer has no accounts
+I0026,missing_selfcert,,R08,self_certification,C800026,,customer_id,C800026,,No self-certification on file
+I0027,selfcert_out_of_date,placeholder_date,R08,self_certification,C800027,,date_signed,1900-01-01,,Placeholder signature date 1900-01-01
+I0028,selfcert_out_of_date,future_dmy,R08,self_certification,C800028,,date_signed,15/03/2027,,Future date written dd/mm/yyyy
+I0029,format_fixable,date_dots,STAGING_FIX,customer_master,C800029,,date_of_birth,27.06.1997,1997-06-27,Date of birth dd.mm.yyyy
+I0030,format_fixable,date_long_us,STAGING_FIX,customer_master,C800030,,date_of_birth,"August 27, 1940",1940-08-27,"Date of birth as 'March 5, 1984'"
+I0031,format_fixable,country_dotted_alias,STAGING_FIX,customer_master,C800031,,country_of_residence,U.K.,GB,Country written U.K.
+I0032,format_fixable,country_local_name,STAGING_FIX,customer_master,C800032,,country_of_residence,Aotearoa,NZ,New Zealand by its Maori name
+I0033,format_fixable,currency_trailing_dot,STAGING_FIX,accounts,A8000034,,currency,AUD.,AUD,Currency code with a trailing full stop
+I0034,format_unfixable,currency_word,R09,accounts,A8000035,,currency,dollars,,Currency written as 'dollars'
+I0035,format_unfixable,date_text,R09,accounts,A8000036,,open_date,sometime 2019,,Open date is free text

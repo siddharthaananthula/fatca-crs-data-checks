@@ -1,0 +1,39 @@
+customer_id,full_name,date_of_birth,residence_address,mailing_address,country_of_residence,phone_numbers,place_of_birth,nationality
+C700001,William Acevedo,1952-06-24,"6/668 Vincent Reserve, Pageborough, SA, 2920, Australia","6/668 Vincent Reserve, Pageborough, SA, 2920, Australia",AU,+61 473 471 782,"New Kevin, Australia",AU
+C700002,Bill Acevedo,1952-06-24,"6/668 Vincent Reserve, Pageborough, SA, 2920, Australia","6/668 Vincent Reserve, Pageborough, SA, 2920, Australia",AU,+61 473 471 782,"New Kevin, Australia",AU
+C700003,Brian White,1974-04-25,"09 Shannon Outlook, South Joshuamouth, ACT, 7953, Australia","09 Shannon Outlook, South Joshuamouth, ACT, 7953, Australia",AU,+61 494 717 539,"St. Emilyfurt, Australia",AU
+C700004,Brian Sally White,1974-04-25,"09 Shannon Outlook, South Joshuamouth, ACT, 7953, Australia","09 Shannon Outlook, South Joshuamouth, ACT, 7953, Australia",AU,+61 494 717 539,"St. Emilyfurt, Australia",AU
+C700005,Edward Hernandez,1976-05-20,"Unit 19 71 Rogers Dell, North Roy, ACT, 2648, Australia","Unit 19 71 Rogers Dell, North Roy, ACT, 2648, Australia",AU,+61 410 602 015,"East Jillton, Australia",AU
+C700006,"HERNANDEZ, Edward",1976-05-20,"Unit 19 71 Rogers Dell, North Roy, ACT, 2648, Australia","Unit 19 71 Rogers Dell, North Roy, ACT, 2648, Australia",AU,+61 410 602 015,"East Jillton, Australia",AU
+C700007,Brandon Hernandez,1976-03-11,"67 Mark Grove, South Jose, VIC, 2867, Australia","67 Mark Grove, South Jose, VIC, 2867, Australia",AU,+61 452 962 320,"Frazierchester, Australia",AU
+C700008,Brandon Hernandez,1976-11-03,"67 Mark Grove, South Jose, VIC, 2867, Australia","67 Mark Grove, South Jose, VIC, 2867, Australia",AU,+61 452 962 320,"Frazierchester, Australia",AU
+C700009,Sarah McAllister,1999-10-11,"2 Christopher Walkway, Tuckerville, WA, 2697, Australia","2 Christopher Walkway, Tuckerville, WA, 2697, Australia",AU,+61 476 855 254,"Harperland, Australia",AU
+C700010,Sarah Mc Allister,1999-10-11,"2 Christopher Walkway, Tuckerville, WA, 2697, Australia","2 Christopher Walkway, Tuckerville, WA, 2697, Australia",AU,+61 476 855 254,"Harperland, Australia",AU
+C700011,Keith Castro,1940-02-26,"3 James Top, New Shannonport, VIC, 2691, Australia","3 James Top, New Shannonport, VIC, 2691, Australia",AU,+61 428 652 689,"Evelynborough, Australia",AU
+C700012,Richard Thomas,1957-10-15,"11 Richard Port, Lake Scott, TAS, 2639, Australia","11 Richard Port, Lake Scott, TAS, 2639, Australia",AU,+61 433 563 253,"West Monica, Australia",AU
+C700013,Kevin Butler,1975-12-09,"87 Richard Follow, Lake Michaelfort, ACT, 2846, Australia","87 Richard Follow, Lake Michaelfort, ACT, 2846, Australia",AU,+61 428 262 334,"West Ruthville, Australia",AU
+C700014,Jacqueline Smith,1982-10-23,"749 Heather Fire Track, Port Adamville, QLD, 2675, Australia","749 Heather Fire Track, Port Adamville, QLD, 2675, Australia",AU,+61 420 105 654,"Gwalior, India",IN
+C700015,Michelle Long,1997-05-17,"Level 1 3 Blake Towers, Port Nicholaston, NSW, 2930, Australia","Level 1 3 Blake Towers, Port Nicholaston, NSW, 2930, Australia",AU,+61 430 295 358,"West Jessicafort, Australia",AU
+C700016,Marissa Ortega,2001-08-08,"768/52 Hill State Highway, Mccoychester, NT, 2999, Australia","768/52 Hill State Highway, Mccoychester, NT, 2999, Australia",AU,+61 451 396 607,"Marissachester, Australia",AU
+C700017,Adem Salz,1956-07-14,"Fatma-Dussen van-Straße 7/6, 13590 Bad Kreuznach, Germany","Fatma-Dussen van-Straße 7/6, 13590 Bad Kreuznach, Germany",DE,+49 1543 5718051,"Erfurt, Germany",DE
+C700018,Dawn Bibi,2001-01-11,"85 Haynes Track, Lake Gail, CA3 3ZT, United Kingdom","85 Haynes Track, Lake Gail, CA3 3ZT, United Kingdom",Great Britain,+44 7224 121009,"Port Joannabury, United Kingdom",GB
+C700019,Corey Yang,2003-09-03,"Flat 86 719 Wood Fairway, West Travis, VIC, 2675, Australia","3396 Green Hill Apt. 516, North Laura, MN 76310, United States.",AU,+61 498 306 795,"Smithview, Australia",AU
+C700020,Justin Garcia,1983-09-14,"3 Caldwell Path, Lake Stephanieburgh, TAS, 2984, Australia","3 Caldwell Path, Lake Stephanieburgh, TAS, 2984, Australia",AU,+61 468 862 850; (+1) 531 555 0159,"East Steventown, Australia",AU
+C700021,Robert Carlson,1995-11-19,"413 Campbell Lookout, Henryberg, VIC, 2962, Australia","413 Campbell Lookout, Henryberg, VIC, 2962, Australia",AU,+61 431 566 622,"South Maryland, Australia",American
+C700022,Linda Jones,2004-04-20,"Suite 994 76 Wilson Grove, New Heather, NT, 2921, Australia","Suite 994 76 Wilson Grove, New Heather, NT, 2921, Australia",AU,+61 421 330 917,"Chicago, IL",GB
+C700023,Cassidy Gray,1986-05-31,"5002 Anna Lodge, New Kevin, IN 95557, USA","Apt. 133 63 Megan Cutting, St. Jackmouth, VIC, 6042, Australia",AU,+61 466 570 331,"Nelsonside, Australia",AU
+C700024,Travis Hernandez,1945-04-18,"67/83 Scott Park, Donaldtown, NT, 2906, Australia","67/83 Scott Park, Donaldtown, NT, 2906, Australia",AU,+61 427 308 021,"Port Eric, Australia",AU
+C700025,Phillip Woods,1959-04-29,"76 Samuel Rest, Port Maryborough, NT, 2289, Australia","76 Samuel Rest, Port Maryborough, NT, 2289, Australia",AU,+61 491 200 400,"West Timothy, Australia",AU
+C700026,Theresa Walker,1965-03-04,"2/0 Gomez Turn, New Cassandraview, VIC, 7359, Australia","2/0 Gomez Turn, New Cassandraview, VIC, 7359, Australia",AU,+61 457 390 022,"New Gregoryville, Australia",AU
+C700027,Joseph Martin,1952-12-06,"54/2 Moore Vale, St. Traviston, TAS, 7251, Australia","54/2 Moore Vale, St. Traviston, TAS, 7251, Australia",AU,+61 474 538 733,"South Fiona, United Kingdom",GB
+C700028,Carolyn Griffin,1978-09-15,"60 Hinney Street F77 18YE Rhianne Ville, Ireland","60 Hinney Street F77 18YE Rhianne Ville, Ireland",IE,+353 81 066 0012,"Joseph Ville, Ireland",IE
+C700029,Keith Reilly,1982-09-27,"81 Clifford Street F3246DK Alister Ville, Ireland","81 Clifford Street F3246DK Alister Ville, Ireland",Republic of Ireland,+353 86 122 3753,"Caragh Ville, Ireland",IE
+C700030,Jennifer Liu,1947-3-5,"3 Bennett Subway, East Elizabeth, NT, 2660, Australia","3 Bennett Subway, East Elizabeth, NT, 2660, Australia",AU,+61 422 218 951,"Jasonmouth, Australia",AU
+C700031,Ryan Blackburn,1964-01-28,"18/12 Lopez Retreat, North Natasha, NSW, 2588, Australia","18/12 Lopez Retreat, North Natasha, NSW, 2588, Australia",AU,+61 491 301 255,"Arnstadt, Germany",DE
+C700032,Jamie Payne,1944-04-06,"9 Manuel Dip, Oconnorfurt, ACT, 2920, Australia","9 Manuel Dip, Oconnorfurt, ACT, 2920, Australia",AU,+61 477 982 834,"Lake Mark, Australia",AU
+C700033,Gabriella Castro,1954-09-07,"Level 6 741 Gregory Rotary, Lopezshire, NSW, 2726, Australia","Level 6 741 Gregory Rotary, Lopezshire, NSW, 2726, Australia",AU,+61 438 616 718,"Lake Lisa, Australia",AU
+C700034,Matthew Johnson,1957-08-29,"Level 3 71 Jean Circuit, South Cherylland, NSW, 2670, Australia","Level 3 71 Jean Circuit, South Cherylland, NSW, 2670, Australia",AU,+61 435 307 741,"East Shannon, Australia",AU
+C700035,Margaret Whyte,1950-02-12,"Suite 396, 69 Whyte Street, Taihope 2391, New Zealand","Suite 396, 69 Whyte Street, Taihope 2391, New Zealand",NZ,+64 25 661 0585,"Whittakerborough, New Zealand",NZ
+C700036,Netra Memon,1996-12-07,"48/692, Kara Nagar, Karaikudi-355017, India","48/692, Kara Nagar, Karaikudi-355017, India",IN,+91 93521 01814,"Junagadh, India",IN
+C700037,P. Martin,1967-09-15,"Suite 900 764 Atkins Tor, Tracyshire, NT, 2624, Australia","Suite 900 764 Atkins Tor, Tracyshire, NT, 2624, Australia",AU,+61 438 852 330,"North Austinview, Australia",AU
+C700038,Thomas Martin,1967-09-15,"71/6 Christensen Ridge, Port Lukeport, VIC, 0227, Australia","71/6 Christensen Ridge, Port Lukeport, VIC, 0227, Australia",AU,+61 431 138 800,"New Amanda, Australia",AU
